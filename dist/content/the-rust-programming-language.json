@@ -1,0 +1,27 @@
+{
+  "slug": "the-rust-programming-language",
+  "title": "The Rust Programming Language",
+  "headings": [
+    {
+      "level": 1,
+      "title": "The Rust Programming Language",
+      "anchor": "the-rust-programming-language"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"aa84621b6d9e0b7bb59858c18107c89fbac09bd111f1725892b281030dca6591\" data-atlas-id=\"the-rust-programming-language:heading:00001:aa84621b6d\" data-atlas-type=\"heading\" id=\"the-rust-programming-language\"><a class=\"header\" href=\"#read/the-rust-programming-language?anchor=the-rust-programming-language\">The Rust Programming Language</a></h1>\n<p data-atlas-hash=\"55b1c3a2d30f3c339aad3bcee18ff8f37974f26841af3e62ac09da4863b99649\" data-atlas-id=\"the-rust-programming-language:paragraph:00001:55b1c3a2d3\" data-atlas-type=\"paragraph\"><em>by Steve Klabnik, Carol Nichols, and Chris Krycho, with contributions from the Rust Community</em></p>\n<p data-atlas-hash=\"3fd2fcdc9bd128bd8e72fe392af29516febbc5a9d3685aa192999a6be9c5b55b\" data-atlas-id=\"the-rust-programming-language:paragraph:00002:3fd2fcdc9b\" data-atlas-type=\"paragraph\">This version of the text assumes you’re using Rust 1.97.0 (released 2026-07-09) or later with <code data-atlas-hash=\"00962768347186ad6c012a0f8663e83c97092f3a1f5175839821bfca53742211\" data-atlas-id=\"the-rust-programming-language:inline_code:00001:0096276834\" data-atlas-type=\"inline_code\">edition = \"2024\"</code> in the <em>Cargo.toml</em> file of all projects to configure them to use Rust 2024 Edition idioms. See the <a href=\"#read/installation-1?anchor=installation-1\">“Installation” section of Chapter 1</a> for instructions on installing or updating Rust, and see <a href=\"#read/e-editions?anchor=e---editions\">Appendix E</a> for information on editions.</p>\n<p data-atlas-hash=\"933d52f926a851bdc76249ef96387cbf10acebd2dce812cf1e0899db3d6d07a0\" data-atlas-id=\"the-rust-programming-language:paragraph:00003:933d52f926\" data-atlas-type=\"paragraph\">The HTML format is available online at <a class=\"uri\" href=\"https://doc.rust-lang.org/stable/book/\" rel=\"noopener noreferrer\" target=\"_blank\">https://doc.rust-lang.org/stable/book/</a> and offline with installations of Rust made with <code data-atlas-hash=\"4d4240a2162a3fa435078c60eac770175d6179a28dcac8972411336997b361a2\" data-atlas-id=\"the-rust-programming-language:inline_code:00002:4d4240a216\" data-atlas-type=\"inline_code\">rustup</code>; run <code data-atlas-hash=\"c1103b87f0dc0c96db48cfae6722b4863441988298bf9e2883240bb1a650dcd2\" data-atlas-id=\"the-rust-programming-language:inline_code:00003:c1103b87f0\" data-atlas-type=\"inline_code\">rustup doc --book</code> to open.</p>\n<p data-atlas-hash=\"f6add05f2b2b6f17ec1e88a1beeafc9e2f4e5947b0b02f25a4dac0b1a1cf8f91\" data-atlas-id=\"the-rust-programming-language:paragraph:00004:f6add05f2b\" data-atlas-type=\"paragraph\">Several community <a href=\"#read/f-translations-of-the-book?anchor=f---translations-of-the-book\">translations</a> are also available.</p>\n<p data-atlas-hash=\"ed8bd18eb433601ce13ab4b9fed408de4a24687398808ade1fa702293f4f978b\" data-atlas-id=\"the-rust-programming-language:paragraph:00005:ed8bd18eb4\" data-atlas-type=\"paragraph\">This text is available in <a href=\"https://nostarch.com/rust-programming-language-3rd-edition\" rel=\"noopener noreferrer\" target=\"_blank\">paperback and ebook format from No Starch Press</a>.</p>\n<blockquote data-atlas-hash=\"3b194bbdc0bd221481f2e799bcac3203a0f2f49f58c9dd060747878d177b15ea\" data-atlas-id=\"the-rust-programming-language:quotation:00001:3b194bbdc0\" data-atlas-type=\"quotation\">\n<p data-atlas-hash=\"3b194bbdc0bd221481f2e799bcac3203a0f2f49f58c9dd060747878d177b15ea\" data-atlas-id=\"the-rust-programming-language:paragraph:00006:3b194bbdc0\" data-atlas-type=\"paragraph\"><strong>🚨 Want a more interactive learning experience? Try out a different version of the Rust Book, featuring: quizzes, highlighting, visualizations, and more</strong>: <a class=\"uri\" href=\"https://rust-book.cs.brown.edu\" rel=\"noopener noreferrer\" target=\"_blank\">https://rust-book.cs.brown.edu</a></p>\n</blockquote>",
+  "source_visible_text_sha256": "67fa701f1797dbd88825c5cceffb062770f60767c15432619d85bdac723f5bb5",
+  "element_ids": [
+    "the-rust-programming-language:heading:00001:aa84621b6d",
+    "the-rust-programming-language:paragraph:00001:55b1c3a2d3",
+    "the-rust-programming-language:paragraph:00002:3fd2fcdc9b",
+    "the-rust-programming-language:inline_code:00001:0096276834",
+    "the-rust-programming-language:paragraph:00003:933d52f926",
+    "the-rust-programming-language:inline_code:00002:4d4240a216",
+    "the-rust-programming-language:inline_code:00003:c1103b87f0",
+    "the-rust-programming-language:paragraph:00004:f6add05f2b",
+    "the-rust-programming-language:paragraph:00005:ed8bd18eb4",
+    "the-rust-programming-language:quotation:00001:3b194bbdc0",
+    "the-rust-programming-language:paragraph:00006:3b194bbdc0"
+  ],
+  "source_type": "book"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "common-collections",
+  "title": "Common Collections",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Common Collections",
+      "anchor": "common-collections"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"f9d29ae7900f04be034c442df3438d557e14374edf3c0abd6357f4b7064559b2\" data-atlas-id=\"common-collections:heading:00001:f9d29ae790\" data-atlas-type=\"heading\" id=\"common-collections\"><a class=\"header\" href=\"#read/common-collections?anchor=common-collections\">Common Collections</a></h1>\n<p data-atlas-hash=\"90dd3a47668244118e421699b90e77344a5be1c3c55cf64041d7cddb05bfc373\" data-atlas-id=\"common-collections:paragraph:00001:90dd3a4766\" data-atlas-type=\"paragraph\">Rust’s standard library includes a number of very useful data structures called <em>collections</em>. Most other data types represent one specific value, but collections can contain multiple values. Unlike the built-in array and tuple types, the data that these collections point to is stored on the heap, which means the amount of data does not need to be known at compile time and can grow or shrink as the program runs. Each kind of collection has different capabilities and costs, and choosing an appropriate one for your current situation is a skill you’ll develop over time. In this chapter, we’ll discuss three collections that are used very often in Rust programs:</p>\n<ul data-atlas-hash=\"88368e6a30b0843219e3d76cd4bb9dc6130a6e0ce7d9f362afcd643ee22d7236\" data-atlas-id=\"common-collections:list:00001:88368e6a30\" data-atlas-type=\"list\">\n<li data-atlas-hash=\"3042b412b180bd84bd3cfc8c623c29ce21659d041021f8814d5b41a88d55d251\" data-atlas-id=\"common-collections:list_item:00001:3042b412b1\" data-atlas-type=\"list_item\">A <em>vector</em> allows you to store a variable number of values next to each other.</li>\n<li data-atlas-hash=\"c2caa96e29aee2aa290f9d03b6e671b6156d2136fff94f2c8042ed27f559218d\" data-atlas-id=\"common-collections:list_item:00002:c2caa96e29\" data-atlas-type=\"list_item\">A <em>string</em> is a collection of characters. We’ve mentioned the <code data-atlas-hash=\"b2ef230e7f4f315a28cdcc863028da31f7110f3209feb76e76fed0f37b3d8580\" data-atlas-id=\"common-collections:inline_code:00001:b2ef230e7f\" data-atlas-type=\"inline_code\">String</code> type previously, but in this chapter, we’ll talk about it in depth.</li>\n<li data-atlas-hash=\"de5eed13409e2ef30931093596c28bc671bc5fd61ad5cb9ed74eceab01e6e3d2\" data-atlas-id=\"common-collections:list_item:00003:de5eed1340\" data-atlas-type=\"list_item\">A <em>hash map</em> allows you to associate a value with a specific key. It’s a particular implementation of the more general data structure called a <em>map</em>.</li>\n</ul>\n<p data-atlas-hash=\"db3599852311f8a855d943fcb150a2f3f9d4b5d8e1a6e2d673659cf152fbf18b\" data-atlas-id=\"common-collections:paragraph:00002:db35998523\" data-atlas-type=\"paragraph\">To learn about the other kinds of collections provided by the standard library, see <a href=\"https://doc.rust-lang.org/std/collections/index.html\" rel=\"noopener noreferrer\" target=\"_blank\">the documentation</a>.</p>\n<p data-atlas-hash=\"fce24834f6ec9f0b42dd9edce83fa7ef773dc55fe18f3292a22ff3c5fb928bad\" data-atlas-id=\"common-collections:paragraph:00003:fce24834f6\" data-atlas-type=\"paragraph\">We’ll discuss how to create and update vectors, strings, and hash maps, as well as what makes each special.</p>",
+  "source_visible_text_sha256": "52c8e10fdd55270d5ab5a915f9a8bd3fb9680689ef9d37518500b66404f98cae",
+  "element_ids": [
+    "common-collections:heading:00001:f9d29ae790",
+    "common-collections:paragraph:00001:90dd3a4766",
+    "common-collections:list:00001:88368e6a30",
+    "common-collections:list_item:00001:3042b412b1",
+    "common-collections:list_item:00002:c2caa96e29",
+    "common-collections:inline_code:00001:b2ef230e7f",
+    "common-collections:list_item:00003:de5eed1340",
+    "common-collections:paragraph:00002:db35998523",
+    "common-collections:paragraph:00003:fce24834f6"
+  ],
+  "source_type": "book"
+}

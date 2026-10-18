@@ -1,0 +1,119 @@
+# Book inventory — all 111 source pages imported
+
+Source: `source/rust-book.original.md` (uploaded complete Markdown). Rust 1.97.0 / 2024 Edition. Original book has 21 numbered chapters and appendices A–G across 111 top-level HTML pages. Verified: **111/111 routes**, **628/628 headings**, **957/957 code blocks**, **433/433 figure elements**, **13/13 tables** and **15,609/15,609 total tracked elements**.
+
+**Important distinction:** all 28 original image references exist, but actual SVG/PNG bytes were not in the Markdown and remain unverified. A local file link or source-image placeholder is not equivalent to including the original image bytes.
+
+## Source-order page list
+
+- 1. **The Rust Programming Language** — 1 headings; 11 inventoried elements; `#the-rust-programming-language`
+- 2. **Foreword** — 1 headings; 9 inventoried elements; `#foreword`
+- 3. **Introduction** — 10 headings; 63 inventoried elements; `#introduction`
+- 4. **Getting Started** — 1 headings; 8 inventoried elements; `#getting-started`
+- 5. **Installation** — 10 headings; 67 inventoried elements; `#installation-1`
+- 6. **Hello, World!** — 6 headings; 82 inventoried elements; `#hello-world-1`
+- 7. **Hello, Cargo!** — 7 headings; 103 inventoried elements; `#hello-cargo-1`
+- 8. **Programming a Guessing Game** — 18 headings; 444 inventoried elements; `#programming-a-guessing-game`
+- 9. **Common Programming Concepts** — 2 headings; 5 inventoried elements; `#common-programming-concepts`
+- 10. **Variables and Mutability** — 4 headings; 84 inventoried elements; `#variables-and-mutability-1`
+- 11. **Data Types** — 14 headings; 238 inventoried elements; `#data-types-1`
+- 12. **Functions** — 5 headings; 139 inventoried elements; `#functions-1`
+- 13. **Comments** — 2 headings; 15 inventoried elements; `#comments-1`
+- 14. **Control Flow** — 12 headings; 240 inventoried elements; `#control-flow-1`
+- 15. **Understanding Ownership** — 1 headings; 2 inventoried elements; `#understanding-ownership`
+- 16. **What is Ownership?** — 13 headings; 250 inventoried elements; `#what-is-ownership-1`
+- 17. **References and Borrowing** — 5 headings; 124 inventoried elements; `#references-and-borrowing-1`
+- 18. **The Slice Type** — 7 headings; 166 inventoried elements; `#the-slice-type-1`
+- 19. **Using Structs to Structure Related Data** — 1 headings; 3 inventoried elements; `#using-structs-to-structure-related-data`
+- 20. **Defining and Instantiating Structs** — 7 headings; 161 inventoried elements; `#defining-and-instantiating-structs-1`
+- 21. **An Example Program Using Structs** — 5 headings; 157 inventoried elements; `#an-example-program-using-structs-1`
+- 22. **Methods** — 8 headings; 184 inventoried elements; `#methods-1`
+- 23. **Enums and Pattern Matching** — 1 headings; 5 inventoried elements; `#enums-and-pattern-matching`
+- 24. **Defining an Enum** — 4 headings; 198 inventoried elements; `#defining-an-enum-1`
+- 25. **The match Control Flow Construct** — 6 headings; 164 inventoried elements; `#the-match-control-flow-construct-1`
+- 26. **Concise Control Flow with if let and let…else** — 4 headings; 116 inventoried elements; `#concise-control-flow-with-if-let-and-letelse-1`
+- 27. **Packages, Crates, and Modules** — 1 headings; 12 inventoried elements; `#packages-crates-and-modules`
+- 28. **Packages and Crates** — 2 headings; 23 inventoried elements; `#packages-and-crates-1`
+- 29. **Control Scope and Privacy with Modules** — 4 headings; 85 inventoried elements; `#control-scope-and-privacy-with-modules-1`
+- 30. **Paths for Referring to an Item in the Module Tree** — 6 headings; 207 inventoried elements; `#paths-for-referring-to-an-item-in-the-module-tree-1`
+- 31. **Bringing Paths Into Scope with the use Keyword** — 8 headings; 193 inventoried elements; `#bringing-paths-into-scope-with-the-use-keyword-1`
+- 32. **Separating Modules into Different Files** — 4 headings; 64 inventoried elements; `#separating-modules-into-different-files-1`
+- 33. **Common Collections** — 1 headings; 9 inventoried elements; `#common-collections`
+- 34. **Storing Lists of Values with Vectors** — 8 headings; 122 inventoried elements; `#storing-lists-of-values-with-vectors-1`
+- 35. **Storing UTF-8 Encoded Text with Strings** — 13 headings; 274 inventoried elements; `#storing-utf-8-encoded-text-with-strings-1`
+- 36. **Storing Keys with Associated Values in Hash Maps** — 11 headings; 132 inventoried elements; `#storing-keys-with-associated-values-in-hash-maps-1`
+- 37. **Error Handling** — 1 headings; 8 inventoried elements; `#error-handling`
+- 38. **Unrecoverable Errors with panic!** — 3 headings; 62 inventoried elements; `#unrecoverable-errors-with-panic-1`
+- 39. **Recoverable Errors with Result** — 8 headings; 450 inventoried elements; `#recoverable-errors-with-result-1`
+- 40. **To panic! or Not to panic!** — 7 headings; 143 inventoried elements; `#to-panic-or-not-to-panic-1`
+- 41. **Generic Types, Traits, and Lifetimes** — 2 headings; 49 inventoried elements; `#generic-types-traits-and-lifetimes`
+- 42. **Generic Data Types** — 7 headings; 252 inventoried elements; `#generic-data-types-1`
+- 43. **Defining Shared Behavior with Traits** — 11 headings; 263 inventoried elements; `#defining-shared-behavior-with-traits-1`
+- 44. **Validating References with Lifetimes** — 14 headings; 324 inventoried elements; `#validating-references-with-lifetimes-1`
+- 45. **Writing Automated Tests** — 1 headings; 11 inventoried elements; `#writing-automated-tests`
+- 46. **How to Write Tests** — 8 headings; 338 inventoried elements; `#how-to-write-tests-1`
+- 47. **Controlling How Tests Are Run** — 8 headings; 93 inventoried elements; `#controlling-how-tests-are-run-1`
+- 48. **Test Organization** — 10 headings; 108 inventoried elements; `#test-organization-1`
+- 49. **An I/O Project: Building a Command Line Program** — 1 headings; 22 inventoried elements; `#an-io-project-building-a-command-line-program`
+- 50. **Accepting Command Line Arguments** — 5 headings; 71 inventoried elements; `#accepting-command-line-arguments-1`
+- 51. **Reading a File** — 2 headings; 26 inventoried elements; `#reading-a-file-1`
+- 52. **Refactoring to Improve Modularity and Error Handling** — 15 headings; 384 inventoried elements; `#refactoring-to-improve-modularity-and-error-handling-1`
+- 53. **Adding Functionality with Test Driven Development** — 7 headings; 107 inventoried elements; `#adding-functionality-with-test-driven-development-1`
+- 54. **Working with Environment Variables** — 4 headings; 139 inventoried elements; `#working-with-environment-variables-1`
+- 55. **Redirecting Errors to Standard Error** — 5 headings; 44 inventoried elements; `#redirecting-errors-to-standard-error-1`
+- 56. **Functional Language Features: Iterators and Closures** — 1 headings; 10 inventoried elements; `#functional-language-features-iterators-and-closures`
+- 57. **Closures** — 6 headings; 244 inventoried elements; `#closures-1`
+- 58. **Processing a Series of Items with Iterators** — 6 headings; 141 inventoried elements; `#processing-a-series-of-items-with-iterators-1`
+- 59. **Improving Our I/O Project** — 7 headings; 141 inventoried elements; `#improving-our-io-project-1`
+- 60. **Performance in Loops vs. Iterators** — 3 headings; 22 inventoried elements; `#performance-in-loops-vs-iterators-1`
+- 61. **More About Cargo and Crates.io** — 1 headings; 9 inventoried elements; `#more-about-cargo-and-cratesio`
+- 62. **Customizing Builds with Release Profiles** — 2 headings; 42 inventoried elements; `#customizing-builds-with-release-profiles-1`
+- 63. **Publishing a Crate to Crates.io** — 12 headings; 209 inventoried elements; `#publishing-a-crate-to-cratesio-1`
+- 64. **Cargo Workspaces** — 6 headings; 136 inventoried elements; `#cargo-workspaces-1`
+- 65. **Installing Binaries with cargo install** — 2 headings; 20 inventoried elements; `#installing-binaries-with-cargo-install-1`
+- 66. **Extending Cargo with Custom Commands** — 3 headings; 10 inventoried elements; `#extending-cargo-with-custom-commands-1`
+- 67. **Smart Pointers** — 1 headings; 22 inventoried elements; `#smart-pointers`
+- 68. **Using Box<T> to Point to Data on the Heap** — 7 headings; 156 inventoried elements; `#using-boxt-to-point-to-data-on-the-heap-1`
+- 69. **Treating Smart Pointers Like Regular References** — 8 headings; 241 inventoried elements; `#treating-smart-pointers-like-regular-references-1`
+- 70. **Running Code on Cleanup with the Drop Trait** — 2 headings; 107 inventoried elements; `#running-code-on-cleanup-with-the-drop-trait-1`
+- 71. **Rc<T>, the Reference Counted Smart Pointer** — 4 headings; 145 inventoried elements; `#rct-the-reference-counted-smart-pointer-1`
+- 72. **RefCell<T> and the Interior Mutability Pattern** — 7 headings; 265 inventoried elements; `#refcellt-and-the-interior-mutability-pattern-1`
+- 73. **Reference Cycles Can Leak Memory** — 8 headings; 311 inventoried elements; `#reference-cycles-can-leak-memory-1`
+- 74. **Fearless Concurrency** — 1 headings; 13 inventoried elements; `#fearless-concurrency`
+- 75. **Using Threads to Run Code Simultaneously** — 5 headings; 119 inventoried elements; `#using-threads-to-run-code-simultaneously-1`
+- 76. **Transfer Data Between Threads with Message Passing** — 5 headings; 111 inventoried elements; `#transfer-data-between-threads-with-message-passing-1`
+- 77. **Shared-State Concurrency** — 8 headings; 149 inventoried elements; `#shared-state-concurrency-1`
+- 78. **Extensible Concurrency with Send and Sync** — 6 headings; 71 inventoried elements; `#extensible-concurrency-with-send-and-sync-1`
+- 79. **Fundamentals of Asynchronous Programming: Async, Await, Futures, and Streams** — 2 headings; 40 inventoried elements; `#fundamentals-of-asynchronous-programming-async-await-futures-and-streams`
+- 80. **Futures and the Async Syntax** — 6 headings; 234 inventoried elements; `#futures-and-the-async-syntax-1`
+- 81. **Applying Concurrency with Async** — 7 headings; 215 inventoried elements; `#applying-concurrency-with-async-1`
+- 82. **Working With Any Number of Futures** — 3 headings; 140 inventoried elements; `#working-with-any-number-of-futures`
+- 83. **Streams: Futures in Sequence** — 2 headings; 48 inventoried elements; `#streams-futures-in-sequence-1`
+- 84. **A Closer Look at the Traits for Async** — 5 headings; 339 inventoried elements; `#a-closer-look-at-the-traits-for-async-1`
+- 85. **Futures, Tasks, and Threads** — 3 headings; 28 inventoried elements; `#futures-tasks-and-threads`
+- 86. **Object-Oriented Programming Features** — 1 headings; 3 inventoried elements; `#object-oriented-programming-features`
+- 87. **Characteristics of Object-Oriented Languages** — 6 headings; 84 inventoried elements; `#characteristics-of-object-oriented-languages-1`
+- 88. **Using Trait Objects to Abstract over Shared Behavior** — 5 headings; 176 inventoried elements; `#using-trait-objects-to-abstract-over-shared-behavior-1`
+- 89. **Implementing an Object-Oriented Design Pattern** — 12 headings; 447 inventoried elements; `#implementing-an-object-oriented-design-pattern-1`
+- 90. **Patterns and Matching** — 1 headings; 16 inventoried elements; `#patterns-and-matching`
+- 91. **All the Places Patterns Can Be Used** — 8 headings; 187 inventoried elements; `#all-the-places-patterns-can-be-used-1`
+- 92. **Refutability: Whether a Pattern Might Fail to Match** — 2 headings; 58 inventoried elements; `#refutability-whether-a-pattern-might-fail-to-match-1`
+- 93. **Pattern Syntax** — 19 headings; 467 inventoried elements; `#pattern-syntax-1`
+- 94. **Advanced Features** — 1 headings; 10 inventoried elements; `#advanced-features`
+- 95. **Unsafe Rust** — 13 headings; 283 inventoried elements; `#unsafe-rust-1`
+- 96. **Advanced Traits** — 7 headings; 338 inventoried elements; `#advanced-traits-1`
+- 97. **Advanced Types** — 6 headings; 198 inventoried elements; `#advanced-types-1`
+- 98. **Advanced Functions and Closures** — 4 headings; 114 inventoried elements; `#advanced-functions-and-closures-1`
+- 99. **Macros** — 9 headings; 317 inventoried elements; `#macros-1`
+- 100. **Final Project: Building a Multithreaded Web Server** — 1 headings; 16 inventoried elements; `#final-project-building-a-multithreaded-web-server`
+- 101. **Building a Single-Threaded Web Server** — 9 headings; 214 inventoried elements; `#building-a-single-threaded-web-server-1`
+- 102. **From Single-Threaded to Multithreaded Server** — 12 headings; 436 inventoried elements; `#from-single-threaded-to-multithreaded-server-1`
+- 103. **Graceful Shutdown and Cleanup** — 5 headings; 160 inventoried elements; `#graceful-shutdown-and-cleanup-1`
+- 104. **Appendix** — 1 headings; 2 inventoried elements; `#appendix`
+- 105. **A - Keywords** — 5 headings; 144 inventoried elements; `#a-keywords`
+- 106. **B - Operators and Symbols** — 4 headings; 790 inventoried elements; `#b-operators-and-symbols`
+- 107. **C - Derivable Traits** — 8 headings; 182 inventoried elements; `#c-derivable-traits`
+- 108. **D - Useful Development Tools** — 6 headings; 65 inventoried elements; `#d-useful-development-tools`
+- 109. **E - Editions** — 2 headings; 20 inventoried elements; `#e-editions`
+- 110. **F - Translations of the Book** — 2 headings; 29 inventoried elements; `#f-translations-of-the-book`
+- 111. **G - How Rust is Made and “Nightly Rust”** — 8 headings; 62 inventoried elements; `#g-how-rust-is-made-and-nightly-rust`

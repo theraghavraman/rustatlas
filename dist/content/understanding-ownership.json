@@ -1,0 +1,18 @@
+{
+  "slug": "understanding-ownership",
+  "title": "Understanding Ownership",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Understanding Ownership",
+      "anchor": "understanding-ownership"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"1a29ecb74749fbe0bc902fd0c736d6103823e5aa19fbb602df134cae172997d2\" data-atlas-id=\"understanding-ownership:heading:00001:1a29ecb747\" data-atlas-type=\"heading\" id=\"understanding-ownership\"><a class=\"header\" href=\"#read/understanding-ownership?anchor=understanding-ownership\">Understanding Ownership</a></h1>\n<p data-atlas-hash=\"91988c9f2dc9a70349260f6abfc1a396b9a5c41178fa7cc1204f3434c2ac1c74\" data-atlas-id=\"understanding-ownership:paragraph:00001:91988c9f2d\" data-atlas-type=\"paragraph\">Ownership is Rust’s most unique feature and has deep implications for the rest of the language. It enables Rust to make memory safety guarantees without needing a garbage collector, so it’s important to understand how ownership works. In this chapter, we’ll talk about ownership as well as several related features: borrowing, slices, and how Rust lays data out in memory.</p>",
+  "source_visible_text_sha256": "a95011abcca92bc71a3d38855761288546fdb217f28764fc0d25b9a8db30593b",
+  "element_ids": [
+    "understanding-ownership:heading:00001:1a29ecb747",
+    "understanding-ownership:paragraph:00001:91988c9f2d"
+  ],
+  "source_type": "book"
+}

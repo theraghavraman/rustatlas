@@ -1,0 +1,21 @@
+{
+  "slug": "enums-and-pattern-matching",
+  "title": "Enums and Pattern Matching",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Enums and Pattern Matching",
+      "anchor": "enums-and-pattern-matching"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"9471238b4aa76a8af04d9dba1784058aaac71fc678906803a8383e6d9235cd8f\" data-atlas-id=\"enums-and-pattern-matching:heading:00001:9471238b4a\" data-atlas-type=\"heading\" id=\"enums-and-pattern-matching\"><a class=\"header\" href=\"#read/enums-and-pattern-matching?anchor=enums-and-pattern-matching\">Enums and Pattern Matching</a></h1>\n<p data-atlas-hash=\"d5e6da95ca6bbc58bc903cc7b31bde83679e89c5af095f70019612b5afcecb5a\" data-atlas-id=\"enums-and-pattern-matching:paragraph:00001:d5e6da95ca\" data-atlas-type=\"paragraph\">In this chapter, we’ll look at enumerations, also referred to as <em>enums</em>. Enums allow you to define a type by enumerating its possible variants. First we’ll define and use an enum to show how an enum can encode meaning along with data. Next, we’ll explore a particularly useful enum, called <code data-atlas-hash=\"45aaacba7ea1a668da79cff4034c6573c6ab9399bb868b878f7e844fd0b6ea75\" data-atlas-id=\"enums-and-pattern-matching:inline_code:00001:45aaacba7e\" data-atlas-type=\"inline_code\">Option</code>, which expresses that a value can be either something or nothing. Then, we’ll look at how pattern matching in the <code data-atlas-hash=\"4945a70fa7f9c13fe1931a3372ac5798140d42eba74d0dd805a4a216ed3a8142\" data-atlas-id=\"enums-and-pattern-matching:inline_code:00002:4945a70fa7\" data-atlas-type=\"inline_code\">match</code> expression makes it easy to run different code for different values of an enum. Finally, we’ll cover how the <code data-atlas-hash=\"4a0d129f44be76f13c4c834351698bc7eb97dc0dd2d61de75ec76493ee7dbb00\" data-atlas-id=\"enums-and-pattern-matching:inline_code:00003:4a0d129f44\" data-atlas-type=\"inline_code\">if let</code> construct is another convenient and concise idiom available to handle enums in your code.</p>",
+  "source_visible_text_sha256": "51f8b66ef2c13ef390855e56f0d1688645f53dff8dcb6fd01768677c82a0e2c7",
+  "element_ids": [
+    "enums-and-pattern-matching:heading:00001:9471238b4a",
+    "enums-and-pattern-matching:paragraph:00001:d5e6da95ca",
+    "enums-and-pattern-matching:inline_code:00001:45aaacba7e",
+    "enums-and-pattern-matching:inline_code:00002:4945a70fa7",
+    "enums-and-pattern-matching:inline_code:00003:4a0d129f44"
+  ],
+  "source_type": "book"
+}

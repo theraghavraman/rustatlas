@@ -1,0 +1,128 @@
+{
+  "slug": "installation-1",
+  "title": "Installation",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Installation",
+      "anchor": "installation-1"
+    },
+    {
+      "level": 2,
+      "title": "Installation",
+      "anchor": "installation"
+    },
+    {
+      "level": 3,
+      "title": "Command Line Notation",
+      "anchor": "command-line-notation"
+    },
+    {
+      "level": 3,
+      "title": "Installing rustup on Linux or macOS",
+      "anchor": "installing-rustup-on-linux-or-macos"
+    },
+    {
+      "level": 3,
+      "title": "Installing rustup on Windows",
+      "anchor": "installing-rustup-on-windows"
+    },
+    {
+      "level": 3,
+      "title": "Troubleshooting",
+      "anchor": "troubleshooting"
+    },
+    {
+      "level": 3,
+      "title": "Updating and Uninstalling",
+      "anchor": "updating-and-uninstalling"
+    },
+    {
+      "level": 3,
+      "title": "Reading the Local Documentation",
+      "anchor": "reading-the-local-documentation"
+    },
+    {
+      "level": 3,
+      "title": "Using Text Editors and IDEs",
+      "anchor": "using-text-editors-and-ides"
+    },
+    {
+      "level": 3,
+      "title": "Working Offline with This Book",
+      "anchor": "working-offline-with-this-book"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"c3fc54aa5390dc2c333d4bb596a339d552ad787337c1fdaac3957ca5a7facf50\" data-atlas-id=\"installation-1:heading:00001:c3fc54aa53\" data-atlas-type=\"heading\" id=\"installation-1\"><a class=\"header\" href=\"#read/installation-1?anchor=installation-1\">Installation</a></h1>\n<h2 data-atlas-hash=\"c3fc54aa5390dc2c333d4bb596a339d552ad787337c1fdaac3957ca5a7facf50\" data-atlas-id=\"installation-1:heading:00002:c3fc54aa53\" data-atlas-type=\"heading\" id=\"installation\"><a class=\"header\" href=\"#read/installation-1?anchor=installation\">Installation</a></h2>\n<p data-atlas-hash=\"cb0965cc56fe9a89f76054931b59bd8f65e9c808565aa03b7d68d05ad3665ba4\" data-atlas-id=\"installation-1:paragraph:00001:cb0965cc56\" data-atlas-type=\"paragraph\">The first step is to install Rust. We’ll download Rust through <code data-atlas-hash=\"4d4240a2162a3fa435078c60eac770175d6179a28dcac8972411336997b361a2\" data-atlas-id=\"installation-1:inline_code:00001:4d4240a216\" data-atlas-type=\"inline_code\">rustup</code>, a command line tool for managing Rust versions and associated tools. You’ll need an internet connection for the download.</p>\n<p data-atlas-hash=\"863327cdd968738e643eea7ea875aafbc3aed868586bd28f9a57d3a3cb6436c1\" data-atlas-id=\"installation-1:paragraph:00002:863327cdd9\" data-atlas-type=\"paragraph\">Note: If you prefer not to use <code data-atlas-hash=\"4d4240a2162a3fa435078c60eac770175d6179a28dcac8972411336997b361a2\" data-atlas-id=\"installation-1:inline_code:00002:4d4240a216\" data-atlas-type=\"inline_code\">rustup</code> for some reason, please see the <a href=\"https://forge.rust-lang.org/infra/other-installation-methods.html\" rel=\"noopener noreferrer\" target=\"_blank\">Other Rust Installation Methods page</a> for more options.</p>\n<p data-atlas-hash=\"33836441fe887d41f666180ac7d76c31c23043c1c488a13b9b8c1dbed6f7afcb\" data-atlas-id=\"installation-1:paragraph:00003:33836441fe\" data-atlas-type=\"paragraph\">The following steps install the latest stable version of the Rust compiler. Rust’s stability guarantees ensure that all the examples in the book that compile will continue to compile with newer Rust versions. The output might differ slightly between versions because Rust often improves error messages and warnings. In other words, any newer, stable version of Rust you install using these steps should work as expected with the content of this book.</p>\n<h3 data-atlas-hash=\"cad69cb409b601ca881d3af40a8d10c0e25314199d0ca25a822ee4b1663b59fd\" data-atlas-id=\"installation-1:heading:00003:cad69cb409\" data-atlas-type=\"heading\" id=\"command-line-notation\"><a class=\"header\" href=\"#read/installation-1?anchor=command-line-notation\">Command Line Notation</a></h3>\n<p data-atlas-hash=\"50034a86b6fea75054b4672950c844393233c094dfb37b4b9e5d288bc1f68aea\" data-atlas-id=\"installation-1:paragraph:00004:50034a86b6\" data-atlas-type=\"paragraph\">In this chapter and throughout the book, we’ll show some commands used in the terminal. Lines that you should enter in a terminal all start with <code data-atlas-hash=\"09fc96082d34c2dfc1295d92073b5ea1dc8ef8da95f14dfded011ffb96d3e54b\" data-atlas-id=\"installation-1:inline_code:00003:09fc96082d\" data-atlas-type=\"inline_code\">$</code>. You don’t need to type the <code data-atlas-hash=\"09fc96082d34c2dfc1295d92073b5ea1dc8ef8da95f14dfded011ffb96d3e54b\" data-atlas-id=\"installation-1:inline_code:00004:09fc96082d\" data-atlas-type=\"inline_code\">$</code> character; it’s the command line prompt shown to indicate the start of each command. Lines that don’t start with <code data-atlas-hash=\"09fc96082d34c2dfc1295d92073b5ea1dc8ef8da95f14dfded011ffb96d3e54b\" data-atlas-id=\"installation-1:inline_code:00005:09fc96082d\" data-atlas-type=\"inline_code\">$</code> typically show the output of the previous command. Additionally, PowerShell-specific examples will use <code data-atlas-hash=\"62b67e1f685b7fef51102005dddd27774be3fee38c42965c53aab035d0b6b221\" data-atlas-id=\"installation-1:inline_code:00006:62b67e1f68\" data-atlas-type=\"inline_code\">&gt;</code> rather than <code data-atlas-hash=\"09fc96082d34c2dfc1295d92073b5ea1dc8ef8da95f14dfded011ffb96d3e54b\" data-atlas-id=\"installation-1:inline_code:00007:09fc96082d\" data-atlas-type=\"inline_code\">$</code>.</p>\n<h3 data-atlas-hash=\"ad9824bd38afb1cb5832cd73fde9b1143d7fee15824ba1cd596ecfe66b9f1359\" data-atlas-id=\"installation-1:heading:00004:ad9824bd38\" data-atlas-type=\"heading\" id=\"installing-rustup-on-linux-or-macos\"><a class=\"header\" href=\"#read/installation-1?anchor=installing-rustup-on-linux-or-macos\">Installing <code data-atlas-hash=\"4d4240a2162a3fa435078c60eac770175d6179a28dcac8972411336997b361a2\" data-atlas-id=\"installation-1:inline_code:00008:4d4240a216\" data-atlas-type=\"inline_code\">rustup</code> on Linux or macOS</a></h3>\n<p data-atlas-hash=\"24187ddf5e6e2877f14f3948a187375a5b4a13b990bd57e2d421dfd80a1eb34b\" data-atlas-id=\"installation-1:paragraph:00005:24187ddf5e\" data-atlas-type=\"paragraph\">If you’re using Linux or macOS, open a terminal and enter the following command:</p>\n<pre data-atlas-hash=\"a9936a562d5fead22189a1426e61512d3804799b439376b0beba5f432e03366d\" data-atlas-id=\"installation-1:code_block:00001:a9936a562d\" data-atlas-type=\"code_block\"><code>$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh</code></pre>\n<p data-atlas-hash=\"80479de5390e9d387ea1e1ae95707b49291c89e471de581ce8c4924346473f3a\" data-atlas-id=\"installation-1:paragraph:00006:80479de539\" data-atlas-type=\"paragraph\">The command downloads a script and starts the installation of the <code data-atlas-hash=\"4d4240a2162a3fa435078c60eac770175d6179a28dcac8972411336997b361a2\" data-atlas-id=\"installation-1:inline_code:00009:4d4240a216\" data-atlas-type=\"inline_code\">rustup</code> tool, which installs the latest stable version of Rust. You might be prompted for your password. If the install is successful, the following line will appear:</p>\n<pre data-atlas-hash=\"ddca44dbfdee5db19f1725ca2c457b0049a51ec6664a9c874bd2db6e787519d9\" data-atlas-id=\"installation-1:code_block:00002:ddca44dbfd\" data-atlas-type=\"code_block\"><code>Rust is installed now. Great!</code></pre>\n<p data-atlas-hash=\"5f97a760e870a7fa9f526f7f9bcadfadf98aa0e162acac3f03c8be1d5cb60f8d\" data-atlas-id=\"installation-1:paragraph:00007:5f97a760e8\" data-atlas-type=\"paragraph\">You will also need a <em>linker</em>, which is a program that Rust uses to join its compiled outputs into one file. It is likely you already have one. If you get linker errors, you should install a C compiler, which will typically include a linker. A C compiler is also useful because some common Rust packages depend on C code and will need a C compiler.</p>\n<p data-atlas-hash=\"949572b6d661d607db58956a06cd2e565379cfacd185f928c734c8084a7c6d14\" data-atlas-id=\"installation-1:paragraph:00008:949572b6d6\" data-atlas-type=\"paragraph\">On macOS, you can get a C compiler by running:</p>\n<pre data-atlas-hash=\"d006a89195175ba7a627284dc78a8b7f0abc97d29a1acda65076cf0f4534d0df\" data-atlas-id=\"installation-1:code_block:00003:d006a89195\" data-atlas-type=\"code_block\"><code>$ xcode-select --install</code></pre>\n<p data-atlas-hash=\"f3a63043c66b8e0fce8f471ebbdc8814fd8f7b4e1d2304f369eef65bcfd30490\" data-atlas-id=\"installation-1:paragraph:00009:f3a63043c6\" data-atlas-type=\"paragraph\">Linux users should generally install GCC or Clang, according to their distribution’s documentation. For example, if you use Ubuntu, you can install the <code data-atlas-hash=\"5ffebd49a00b853c9fd39c5b208076bb3e7489e3a69890362083d96be77c73d8\" data-atlas-id=\"installation-1:inline_code:00010:5ffebd49a0\" data-atlas-type=\"inline_code\">build-essential</code> package.</p>\n<h3 data-atlas-hash=\"01311287f1655a35576592b784df71ed08922ccfcaa83cecdc624a71eed2f10e\" data-atlas-id=\"installation-1:heading:00005:01311287f1\" data-atlas-type=\"heading\" id=\"installing-rustup-on-windows\"><a class=\"header\" href=\"#read/installation-1?anchor=installing-rustup-on-windows\">Installing <code data-atlas-hash=\"4d4240a2162a3fa435078c60eac770175d6179a28dcac8972411336997b361a2\" data-atlas-id=\"installation-1:inline_code:00011:4d4240a216\" data-atlas-type=\"inline_code\">rustup</code> on Windows</a></h3>\n<p data-atlas-hash=\"ebaf27ecea38ed4c7d3de19afa50f1384364d9a8a704c1314b0721fd0bdecf11\" data-atlas-id=\"installation-1:paragraph:00010:ebaf27ecea\" data-atlas-type=\"paragraph\">On Windows, go to <a class=\"uri\" href=\"https://www.rust-lang.org/tools/install\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.rust-lang.org/tools/install</a> and follow the instructions for installing Rust. At some point in the installation, you’ll be prompted to install Visual Studio. This provides a linker and the native libraries needed to compile programs. If you need more help with this step, see <a class=\"uri\" href=\"https://rust-lang.github.io/rustup/installation/windows-msvc.html\" rel=\"noopener noreferrer\" target=\"_blank\">https://rust-lang.github.io/rustup/installation/windows-msvc.html</a>.</p>\n<p data-atlas-hash=\"78523669ba71782a596d3b9421b73a4dab18ecc752e84e5fe7f3b905601c3a89\" data-atlas-id=\"installation-1:paragraph:00011:78523669ba\" data-atlas-type=\"paragraph\">The rest of this book uses commands that work in both <em>cmd.exe</em> and PowerShell. If there are specific differences, we’ll explain which to use.</p>\n<h3 data-atlas-hash=\"c3af076f92c5ed8dcb0d0b0d36dd120bc31b68264efea96cf8019ca19f1c13a3\" data-atlas-id=\"installation-1:heading:00006:c3af076f92\" data-atlas-type=\"heading\" id=\"troubleshooting\"><a class=\"header\" href=\"#read/installation-1?anchor=troubleshooting\">Troubleshooting</a></h3>\n<p data-atlas-hash=\"4935770e4e362c0b7d77ff182ed31cb1f09b5e9d3c1337481bed58c230672bbe\" data-atlas-id=\"installation-1:paragraph:00012:4935770e4e\" data-atlas-type=\"paragraph\">To check whether you have Rust installed correctly, open a shell and enter this line:</p>\n<pre data-atlas-hash=\"194877236f71e9d4a9e007ba10a57a201fa945dfea1458171d4d2968be37110c\" data-atlas-id=\"installation-1:code_block:00004:194877236f\" data-atlas-type=\"code_block\"><code>$ rustc --version</code></pre>\n<p data-atlas-hash=\"e4a9179372cab4c43e37d6f3581f8d49e049555255634c8aaab10833e0a46ba2\" data-atlas-id=\"installation-1:paragraph:00013:e4a9179372\" data-atlas-type=\"paragraph\">You should see the version number, commit hash, and commit date for the latest stable version that has been released, in the following format:</p>\n<pre data-atlas-hash=\"4c7864a25bd70c7b9d224b9b871094bda8494a88bda14eff5ee0e4f8627f9865\" data-atlas-id=\"installation-1:code_block:00005:4c7864a25b\" data-atlas-type=\"code_block\"><code>rustc x.y.z (abcabcabc yyyy-mm-dd)</code></pre>\n<p data-atlas-hash=\"098fd8c44545ebc0c50d3d66f52b3bbbef4df7a48980ffe614a39e8f5252a9f7\" data-atlas-id=\"installation-1:paragraph:00014:098fd8c445\" data-atlas-type=\"paragraph\">If you see this information, you have installed Rust successfully! If you don’t see this information, check that Rust is in your <code data-atlas-hash=\"5d5c673a74b8c1a592abd26d22e308f1fcd5ace7bcdeaa8953b86f1a760dc129\" data-atlas-id=\"installation-1:inline_code:00012:5d5c673a74\" data-atlas-type=\"inline_code\">%PATH%</code> system variable as follows.</p>\n<p data-atlas-hash=\"76824dbb338662ab38a6e187721bdad883d291e21348746b64d77a83463fcfe7\" data-atlas-id=\"installation-1:paragraph:00015:76824dbb33\" data-atlas-type=\"paragraph\">In Windows CMD, use:</p>\n<pre data-atlas-hash=\"99383b88bc49371dce97d3b329ad7af12ae1d4eae63a71f1ccfbe13de3e0879f\" data-atlas-id=\"installation-1:code_block:00006:99383b88bc\" data-atlas-type=\"code_block\"><code>&gt; echo %PATH%</code></pre>\n<p data-atlas-hash=\"21ae01108a7095bad57b94594c948fa215d6156bf61b9a841b2e76bf70a63c8c\" data-atlas-id=\"installation-1:paragraph:00016:21ae01108a\" data-atlas-type=\"paragraph\">In PowerShell, use:</p>\n<pre class=\"sourceCode powershell\" data-atlas-hash=\"e34d1461578a7e3bdb2793e4939e5a05773607e9e44122fdba6bf9c3feef9334\" data-atlas-id=\"installation-1:code_block:00007:e34d146157\" data-atlas-type=\"code_block\"><code class=\"sourceCode powershell\"><span id=\"rust-code-0001-1\"><a aria-hidden=\"true\" href=\"#read/installation-1?anchor=rust-code-0001-1\" tabindex=\"-1\"></a><span class=\"op\">&gt;</span> <span class=\"fu\">echo</span> <span class=\"va\">$env</span><span class=\"op\">:</span><span class=\"va\">Path</span></span></code></pre>\n<p data-atlas-hash=\"4d02426ee53a0e946897daebd7213927a4bfbcfc7b1c1ef85464b0890d98457f\" data-atlas-id=\"installation-1:paragraph:00017:4d02426ee5\" data-atlas-type=\"paragraph\">In Linux and macOS, use:</p>\n<pre data-atlas-hash=\"4022f6c7624d4074b2823ebb41b53b7d557d8d864763e68a70cb8c0ae7e075c6\" data-atlas-id=\"installation-1:code_block:00008:4022f6c762\" data-atlas-type=\"code_block\"><code>$ echo $PATH</code></pre>\n<p data-atlas-hash=\"9db911251416fa68ebc2fb87b692963ac690198f6fbf707a7fbc98c22e7a3539\" data-atlas-id=\"installation-1:paragraph:00018:9db9112514\" data-atlas-type=\"paragraph\">If that’s all correct and Rust still isn’t working, there are a number of places you can get help. Find out how to get in touch with other Rustaceans (a silly nickname we call ourselves) on <a href=\"https://www.rust-lang.org/community\" rel=\"noopener noreferrer\" target=\"_blank\">the community page</a>.</p>\n<h3 data-atlas-hash=\"6825aead5d0f8b0bd090a2609590b0807286ddcacb5f4d70df61a8850be6ddeb\" data-atlas-id=\"installation-1:heading:00007:6825aead5d\" data-atlas-type=\"heading\" id=\"updating-and-uninstalling\"><a class=\"header\" href=\"#read/installation-1?anchor=updating-and-uninstalling\">Updating and Uninstalling</a></h3>\n<p data-atlas-hash=\"2227db7e6a95af08cdd4be55f81f3604dff12d745df391d8f4d518176b7ae837\" data-atlas-id=\"installation-1:paragraph:00019:2227db7e6a\" data-atlas-type=\"paragraph\">Once Rust is installed via <code data-atlas-hash=\"4d4240a2162a3fa435078c60eac770175d6179a28dcac8972411336997b361a2\" data-atlas-id=\"installation-1:inline_code:00013:4d4240a216\" data-atlas-type=\"inline_code\">rustup</code>, updating to a newly released version is easy. From your shell, run the following update script:</p>\n<pre data-atlas-hash=\"9765d90f8a6b6e851274c8f07a76c08a9837243190b467c7d873ab4ecd0f4077\" data-atlas-id=\"installation-1:code_block:00009:9765d90f8a\" data-atlas-type=\"code_block\"><code>$ rustup update</code></pre>\n<p data-atlas-hash=\"628f17125f27a7c0c0b45ea627cc4b18557cd73cb7da4a81b10a0347643d7560\" data-atlas-id=\"installation-1:paragraph:00020:628f17125f\" data-atlas-type=\"paragraph\">To uninstall Rust and <code data-atlas-hash=\"4d4240a2162a3fa435078c60eac770175d6179a28dcac8972411336997b361a2\" data-atlas-id=\"installation-1:inline_code:00014:4d4240a216\" data-atlas-type=\"inline_code\">rustup</code>, run the following uninstall script from your shell:</p>\n<pre data-atlas-hash=\"5d53d6a98155ab9c93b44ff114db8bc82e90452bbc60d94a6fb8ca3da60d5631\" data-atlas-id=\"installation-1:code_block:00010:5d53d6a981\" data-atlas-type=\"code_block\"><code>$ rustup self uninstall</code></pre>\n<p data-atlas-hash=\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\" data-atlas-id=\"installation-1:paragraph:00021:e3b0c44298\" data-atlas-type=\"paragraph\"><span id=\"local-documentation\"></span></p>\n<h3 data-atlas-hash=\"232e04f8ef1958f9d19300d0f035513b7b1172ee5e3d2cc463757d57a12f2275\" data-atlas-id=\"installation-1:heading:00008:232e04f8ef\" data-atlas-type=\"heading\" id=\"reading-the-local-documentation\"><a class=\"header\" href=\"#read/installation-1?anchor=reading-the-local-documentation\">Reading the Local Documentation</a></h3>\n<p data-atlas-hash=\"958af5b84570c5a07b0f466c5e6f695b90e3345aba4fe441924d98062b77fd49\" data-atlas-id=\"installation-1:paragraph:00022:958af5b845\" data-atlas-type=\"paragraph\">The installation of Rust also includes a local copy of the documentation so that you can read it offline. Run <code data-atlas-hash=\"3171b6481ead2678a3c25bdaf2d165d8fa8416c7deea9724284d77f1ed5261b2\" data-atlas-id=\"installation-1:inline_code:00015:3171b6481e\" data-atlas-type=\"inline_code\">rustup doc</code> to open the local documentation in your browser.</p>\n<p data-atlas-hash=\"e44853e3c989d7ca757b78364b8c947713388778a647d41521f120aa1b55082d\" data-atlas-id=\"installation-1:paragraph:00023:e44853e3c9\" data-atlas-type=\"paragraph\">Any time a type or function is provided by the standard library and you’re not sure what it does or how to use it, use the application programming interface (API) documentation to find out!</p>\n<p data-atlas-hash=\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\" data-atlas-id=\"installation-1:paragraph:00024:e3b0c44298\" data-atlas-type=\"paragraph\"><span id=\"text-editors-and-integrated-development-environments\"></span></p>\n<h3 data-atlas-hash=\"e08138e26363b44eb8ae098cd70ccdee52dfb5c61db3bedda8ae4bed71074e48\" data-atlas-id=\"installation-1:heading:00009:e08138e263\" data-atlas-type=\"heading\" id=\"using-text-editors-and-ides\"><a class=\"header\" href=\"#read/installation-1?anchor=using-text-editors-and-ides\">Using Text Editors and IDEs</a></h3>\n<p data-atlas-hash=\"794cf60bc9305922dbf904bcfa0183db70af6a6e0075575441ac3331dfdb7c00\" data-atlas-id=\"installation-1:paragraph:00025:794cf60bc9\" data-atlas-type=\"paragraph\">This book makes no assumptions about what tools you use to author Rust code. Just about any text editor will get the job done! However, many text editors and integrated development environments (IDEs) have built-in support for Rust. You can always find a fairly current list of many editors and IDEs on <a href=\"https://www.rust-lang.org/tools\" rel=\"noopener noreferrer\" target=\"_blank\">the tools page</a> on the Rust website.</p>\n<h3 data-atlas-hash=\"73fa62325b0f112121b161f4ed5c7521888d8f36aeb626a1ababbd875ae9044d\" data-atlas-id=\"installation-1:heading:00010:73fa62325b\" data-atlas-type=\"heading\" id=\"working-offline-with-this-book\"><a class=\"header\" href=\"#read/installation-1?anchor=working-offline-with-this-book\">Working Offline with This Book</a></h3>\n<p data-atlas-hash=\"1619a22726c37440b84d2beebcf3a7b697e6dec2a45e69f3c0c47dcd3a1d8acc\" data-atlas-id=\"installation-1:paragraph:00026:1619a22726\" data-atlas-type=\"paragraph\">In several examples, we will use Rust packages beyond the standard library. To work through those examples, you will either need to have an internet connection or to have downloaded those dependencies ahead of time. To download the dependencies ahead of time, you can run the following commands. (We’ll explain what <code data-atlas-hash=\"3322532d8589f95c912a7c956aecd5b0d8847263b9021438c72a126041f612e8\" data-atlas-id=\"installation-1:inline_code:00016:3322532d85\" data-atlas-type=\"inline_code\">cargo</code> is and what each of these commands does in detail later.)</p>\n<pre data-atlas-hash=\"8e4d931b882befa5599e81c166f01efcb178ac0605147d18de4466a90bdc7e83\" data-atlas-id=\"installation-1:code_block:00011:8e4d931b88\" data-atlas-type=\"code_block\"><code>$ cargo new get-dependencies\n$ cd get-dependencies\n$ cargo add rand@0.10.1 trpl@0.2.0</code></pre>\n<p data-atlas-hash=\"79439ca91194f140e2296e6d5d625b406f82995a742e07993194b82f17a29676\" data-atlas-id=\"installation-1:paragraph:00027:79439ca911\" data-atlas-type=\"paragraph\">This will cache the downloads for these packages so you will not need to download them later. Once you have run this command, you do not need to keep the <code data-atlas-hash=\"41ef27b86b6d255be29a7dee9dc645944969af26922a873dce9b4054f6131c0a\" data-atlas-id=\"installation-1:inline_code:00017:41ef27b86b\" data-atlas-type=\"inline_code\">get-dependencies</code> folder. If you have run this command, you can use the <code data-atlas-hash=\"aff7d00b56394f5a96dca22be6856e0950b37524abb5b2ef434d27981a0586f1\" data-atlas-id=\"installation-1:inline_code:00018:aff7d00b56\" data-atlas-type=\"inline_code\">--offline</code> flag with all <code data-atlas-hash=\"3322532d8589f95c912a7c956aecd5b0d8847263b9021438c72a126041f612e8\" data-atlas-id=\"installation-1:inline_code:00019:3322532d85\" data-atlas-type=\"inline_code\">cargo</code> commands in the rest of the book to use these cached versions instead of attempting to use the network.</p>",
+  "source_visible_text_sha256": "ee632aa035ce5160ebc9b3a86599d9755d4f48dc1d93d8dde3d62093127b38ba",
+  "element_ids": [
+    "installation-1:heading:00001:c3fc54aa53",
+    "installation-1:heading:00002:c3fc54aa53",
+    "installation-1:paragraph:00001:cb0965cc56",
+    "installation-1:inline_code:00001:4d4240a216",
+    "installation-1:paragraph:00002:863327cdd9",
+    "installation-1:inline_code:00002:4d4240a216",
+    "installation-1:paragraph:00003:33836441fe",
+    "installation-1:heading:00003:cad69cb409",
+    "installation-1:paragraph:00004:50034a86b6",
+    "installation-1:inline_code:00003:09fc96082d",
+    "installation-1:inline_code:00004:09fc96082d",
+    "installation-1:inline_code:00005:09fc96082d",
+    "installation-1:inline_code:00006:62b67e1f68",
+    "installation-1:inline_code:00007:09fc96082d",
+    "installation-1:heading:00004:ad9824bd38",
+    "installation-1:inline_code:00008:4d4240a216",
+    "installation-1:paragraph:00005:24187ddf5e",
+    "installation-1:code_block:00001:a9936a562d",
+    "installation-1:paragraph:00006:80479de539",
+    "installation-1:inline_code:00009:4d4240a216",
+    "installation-1:code_block:00002:ddca44dbfd",
+    "installation-1:paragraph:00007:5f97a760e8",
+    "installation-1:paragraph:00008:949572b6d6",
+    "installation-1:code_block:00003:d006a89195",
+    "installation-1:paragraph:00009:f3a63043c6",
+    "installation-1:inline_code:00010:5ffebd49a0",
+    "installation-1:heading:00005:01311287f1",
+    "installation-1:inline_code:00011:4d4240a216",
+    "installation-1:paragraph:00010:ebaf27ecea",
+    "installation-1:paragraph:00011:78523669ba",
+    "installation-1:heading:00006:c3af076f92",
+    "installation-1:paragraph:00012:4935770e4e",
+    "installation-1:code_block:00004:194877236f",
+    "installation-1:paragraph:00013:e4a9179372",
+    "installation-1:code_block:00005:4c7864a25b",
+    "installation-1:paragraph:00014:098fd8c445",
+    "installation-1:inline_code:00012:5d5c673a74",
+    "installation-1:paragraph:00015:76824dbb33",
+    "installation-1:code_block:00006:99383b88bc",
+    "installation-1:paragraph:00016:21ae01108a",
+    "installation-1:code_block:00007:e34d146157",
+    "installation-1:paragraph:00017:4d02426ee5",
+    "installation-1:code_block:00008:4022f6c762",
+    "installation-1:paragraph:00018:9db9112514",
+    "installation-1:heading:00007:6825aead5d",
+    "installation-1:paragraph:00019:2227db7e6a",
+    "installation-1:inline_code:00013:4d4240a216",
+    "installation-1:code_block:00009:9765d90f8a",
+    "installation-1:paragraph:00020:628f17125f",
+    "installation-1:inline_code:00014:4d4240a216",
+    "installation-1:code_block:00010:5d53d6a981",
+    "installation-1:paragraph:00021:e3b0c44298",
+    "installation-1:heading:00008:232e04f8ef",
+    "installation-1:paragraph:00022:958af5b845",
+    "installation-1:inline_code:00015:3171b6481e",
+    "installation-1:paragraph:00023:e44853e3c9",
+    "installation-1:paragraph:00024:e3b0c44298",
+    "installation-1:heading:00009:e08138e263",
+    "installation-1:paragraph:00025:794cf60bc9",
+    "installation-1:heading:00010:73fa62325b",
+    "installation-1:paragraph:00026:1619a22726",
+    "installation-1:inline_code:00016:3322532d85",
+    "installation-1:code_block:00011:8e4d931b88",
+    "installation-1:paragraph:00027:79439ca911",
+    "installation-1:inline_code:00017:41ef27b86b",
+    "installation-1:inline_code:00018:aff7d00b56",
+    "installation-1:inline_code:00019:3322532d85"
+  ],
+  "source_type": "book"
+}

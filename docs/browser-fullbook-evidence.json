@@ -1,0 +1,116 @@
+{
+  "source": "uploaded Markdown, bundled standalone HTML",
+  "test_cases": 27,
+  "passed": 27,
+  "failed": 0,
+  "results": [
+    {
+      "name": "1440px embedded home loads",
+      "status": "PASS"
+    },
+    {
+      "name": "1440px 111 original source sections displayed",
+      "status": "PASS"
+    },
+    {
+      "name": "1440px real original ownership chapter displays",
+      "status": "PASS"
+    },
+    {
+      "name": "1440px appendix destination works",
+      "status": "PASS"
+    },
+    {
+      "name": "1440px search opens relevant book results",
+      "status": "PASS"
+    },
+    {
+      "name": "1440px lab visualization controls work",
+      "status": "PASS"
+    },
+    {
+      "name": "1440px practice questions render",
+      "status": "PASS"
+    },
+    {
+      "name": "1440px no uncaught JavaScript exceptions",
+      "status": "PASS"
+    },
+    {
+      "name": "1440px no page-level horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "800px embedded home loads",
+      "status": "PASS"
+    },
+    {
+      "name": "800px 111 original source sections displayed",
+      "status": "PASS"
+    },
+    {
+      "name": "800px real original ownership chapter displays",
+      "status": "PASS"
+    },
+    {
+      "name": "800px appendix destination works",
+      "status": "PASS"
+    },
+    {
+      "name": "800px search opens relevant book results",
+      "status": "PASS"
+    },
+    {
+      "name": "800px lab visualization controls work",
+      "status": "PASS"
+    },
+    {
+      "name": "800px practice questions render",
+      "status": "PASS"
+    },
+    {
+      "name": "800px no uncaught JavaScript exceptions",
+      "status": "PASS"
+    },
+    {
+      "name": "800px no page-level horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "390px embedded home loads",
+      "status": "PASS"
+    },
+    {
+      "name": "390px 111 original source sections displayed",
+      "status": "PASS"
+    },
+    {
+      "name": "390px real original ownership chapter displays",
+      "status": "PASS"
+    },
+    {
+      "name": "390px appendix destination works",
+      "status": "PASS"
+    },
+    {
+      "name": "390px search opens relevant book results",
+      "status": "PASS"
+    },
+    {
+      "name": "390px lab visualization controls work",
+      "status": "PASS"
+    },
+    {
+      "name": "390px practice questions render",
+      "status": "PASS"
+    },
+    {
+      "name": "390px no uncaught JavaScript exceptions",
+      "status": "PASS"
+    },
+    {
+      "name": "390px no page-level horizontal overflow",
+      "status": "PASS"
+    }
+  ]
+}

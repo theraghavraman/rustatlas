@@ -1,0 +1,36 @@
+{
+  "slug": "comments-1",
+  "title": "Comments",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Comments",
+      "anchor": "comments-1"
+    },
+    {
+      "level": 2,
+      "title": "Comments",
+      "anchor": "comments"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"355f79f29d7d3c2df917ad07f7441e3ce4b0ac48892b778076dbdca401851712\" data-atlas-id=\"comments-1:heading:00001:355f79f29d\" data-atlas-type=\"heading\" id=\"comments-1\"><a class=\"header\" href=\"#read/comments-1?anchor=comments-1\">Comments</a></h1>\n<h2 data-atlas-hash=\"355f79f29d7d3c2df917ad07f7441e3ce4b0ac48892b778076dbdca401851712\" data-atlas-id=\"comments-1:heading:00002:355f79f29d\" data-atlas-type=\"heading\" id=\"comments\"><a class=\"header\" href=\"#read/comments-1?anchor=comments\">Comments</a></h2>\n<p data-atlas-hash=\"f981e12003d09dd73250f788babb37acf9c500b73a3de76ce44b380b4bafde1b\" data-atlas-id=\"comments-1:paragraph:00001:f981e12003\" data-atlas-type=\"paragraph\">All programmers strive to make their code easy to understand, but sometimes extra explanation is warranted. In these cases, programmers leave <em>comments</em> in their source code that the compiler will ignore but that people reading the source code may find useful.</p>\n<p data-atlas-hash=\"30aa7c52b562f870f4c61b3862047d6d35fd3b27f2df380f207de0f33fe761c7\" data-atlas-id=\"comments-1:paragraph:00002:30aa7c52b5\" data-atlas-type=\"paragraph\">Here’s a simple comment:</p>\n<pre data-atlas-hash=\"f451b315b94687e26e62b2be76d0243b6c5bb6f901f3a3a3e5fdef385330897d\" data-atlas-id=\"comments-1:code_block:00001:f451b315b9\" data-atlas-type=\"code_block\"><code>#![allow(unused)]\nfn main() {\n// hello, world\n}</code></pre>\n<p data-atlas-hash=\"679b05c8fcd54d0a1a89928687337a3084ff18d17c90325b021d0b79280133f4\" data-atlas-id=\"comments-1:paragraph:00003:679b05c8fc\" data-atlas-type=\"paragraph\">In Rust, the idiomatic comment style starts a comment with two slashes, and the comment continues until the end of the line. For comments that extend beyond a single line, you’ll need to include <code data-atlas-hash=\"a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb\" data-atlas-id=\"comments-1:inline_code:00001:a2c2339691\" data-atlas-type=\"inline_code\">//</code> on each line, like this:</p>\n<pre data-atlas-hash=\"41960ed60c3703fcc569bc737401a05182b26146b51a8ceaff8a4dc1578c5601\" data-atlas-id=\"comments-1:code_block:00002:41960ed60c\" data-atlas-type=\"code_block\"><code>#![allow(unused)]\nfn main() {\n// So we're doing something complicated here, long enough that we need\n// multiple lines of comments to do it! Whew! Hopefully, this comment will\n// explain what's going on.\n}</code></pre>\n<p data-atlas-hash=\"fd8da6016c2e22c89d3dc98810337b97a060ddf402e42cc1a720a4f0405f49ba\" data-atlas-id=\"comments-1:paragraph:00004:fd8da6016c\" data-atlas-type=\"paragraph\">Comments can also be placed at the end of lines containing code:</p>\n<p data-atlas-hash=\"62a28fba7e40c1488cbf4e5394a677b6d2057c46c2a1bf47114c96b867f73d62\" data-atlas-id=\"comments-1:paragraph:00005:62a28fba7e\" data-atlas-type=\"paragraph\"><span class=\"filename\">Filename: src/main.rs</span></p>\n<pre data-atlas-hash=\"9d6f911f39417cb0394ef1555516060d37286e589fb6643de038a9a7d3538609\" data-atlas-id=\"comments-1:code_block:00003:9d6f911f39\" data-atlas-type=\"code_block\"><code>fn main() {\n    let lucky_number = 7; // I'm feeling lucky today\n}</code></pre>\n<p data-atlas-hash=\"93aea904a0ee5bfda1b6ac18d78afe0c38dcf6ff93592913f01d15c5134b1f70\" data-atlas-id=\"comments-1:paragraph:00006:93aea904a0\" data-atlas-type=\"paragraph\">But you’ll more often see them used in this format, with the comment on a separate line above the code it’s annotating:</p>\n<p data-atlas-hash=\"62a28fba7e40c1488cbf4e5394a677b6d2057c46c2a1bf47114c96b867f73d62\" data-atlas-id=\"comments-1:paragraph:00007:62a28fba7e\" data-atlas-type=\"paragraph\"><span class=\"filename\">Filename: src/main.rs</span></p>\n<pre data-atlas-hash=\"6b3f5852fe4f52c6642b4948cab4283bdd7c8a20dad28f8fe658c1a685242380\" data-atlas-id=\"comments-1:code_block:00004:6b3f5852fe\" data-atlas-type=\"code_block\"><code>fn main() {\n    // I'm feeling lucky today\n    let lucky_number = 7;\n}</code></pre>\n<p data-atlas-hash=\"64f8475e05c7509d1c80b301e336a1287910ee9d57b32ab7c5737d60ab47bdb4\" data-atlas-id=\"comments-1:paragraph:00008:64f8475e05\" data-atlas-type=\"paragraph\">Rust also has another kind of comment, documentation comments, which we’ll discuss in the <a href=\"#read/publishing-a-crate-to-cratesio-1?anchor=publishing-a-crate-to-cratesio-1\">“Publishing a Crate to Crates.io”</a> section of Chapter 14.</p>",
+  "source_visible_text_sha256": "807c48765f19ff8be72c19b73ddfca7cda57084038db32eb3cb52608a8b3bf89",
+  "element_ids": [
+    "comments-1:heading:00001:355f79f29d",
+    "comments-1:heading:00002:355f79f29d",
+    "comments-1:paragraph:00001:f981e12003",
+    "comments-1:paragraph:00002:30aa7c52b5",
+    "comments-1:code_block:00001:f451b315b9",
+    "comments-1:paragraph:00003:679b05c8fc",
+    "comments-1:inline_code:00001:a2c2339691",
+    "comments-1:code_block:00002:41960ed60c",
+    "comments-1:paragraph:00004:fd8da6016c",
+    "comments-1:paragraph:00005:62a28fba7e",
+    "comments-1:code_block:00003:9d6f911f39",
+    "comments-1:paragraph:00006:93aea904a0",
+    "comments-1:paragraph:00007:62a28fba7e",
+    "comments-1:code_block:00004:6b3f5852fe",
+    "comments-1:paragraph:00008:64f8475e05"
+  ],
+  "source_type": "book"
+}

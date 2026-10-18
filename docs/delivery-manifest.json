@@ -1,0 +1,832 @@
+{
+  "package": "Rust Atlas — entire user-supplied Rust Book in HTML",
+  "source_markdown_sha256": "c5a6eefc965ca3ba97f0b776611fc0aaaf1805d00c43d7c5a9e7b15849ea141a",
+  "standalone_html": {
+    "path": "rust-atlas-complete.html",
+    "size": 10497780
+  },
+  "full_static_literal_html": {
+    "path": "rust-book-complete-static.html",
+    "size": 2795826
+  },
+  "text_elements_matched": 15609,
+  "total_text_elements": 15609,
+  "source_pages": 111,
+  "book_images_externally_linked_not_bundled": 28,
+  "browser_tests": "27/27 (Chromium inline-document)",
+  "source_unit_tests": "17/17",
+  "static_http_delivery": "119/119 resources",
+  "full_release_verified": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 158,
+      "sha256": "0a722b2a0aba7861254c2a215433ab599ac18bcdcc91f8a6a96c84b9f7828bfd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7322,
+      "sha256": "eefe8b33213dd6c42a432eaadc68238131f18d5e2a6ea16ecb2b6433b445fd5c"
+    },
+    {
+      "path": "build/rust-book.normalized.md",
+      "bytes": 2243508,
+      "sha256": "5a1ce0faabe146dcde32651606b1e43c6932718a3467022fffc00e670512c5c9"
+    },
+    {
+      "path": "build/rust-book.pandoc.html",
+      "bytes": 2764062,
+      "sha256": "1db75252aac487cc636489929ebe7a0c01610f5d945776ea224299967b3106ac"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 37352,
+      "sha256": "46bc1469e18183f101ca494b14fe6e6f0aa9adc822d03463fce28ed0960e47f2"
+    },
+    {
+      "path": "dist/book-manifest.json",
+      "bytes": 5823035,
+      "sha256": "e2ab8ed90937878ad292bd5399092ce5db9c6e9fa4fbdaa96c2ac5acbc3bbc71"
+    },
+    {
+      "path": "dist/concepts.js",
+      "bytes": 13715,
+      "sha256": "3b66319c859ef97bebe77a5c7e08bb59aae144e4ee5d067c3a72efb53c464ace"
+    },
+    {
+      "path": "dist/content/a-closer-look-at-the-traits-for-async-1.json",
+      "bytes": 147808,
+      "sha256": "25468a0ea2bb949af923d74216f1430cd12c33d7cd99ab64bb16759fff4f2f07"
+    },
+    {
+      "path": "dist/content/a-keywords.json",
+      "bytes": 40783,
+      "sha256": "d738441311ddac8406d42eb07a6379421938d2f5a0fdba94fd2ede595cbf8dd6"
+    },
+    {
+      "path": "dist/content/accepting-command-line-arguments-1.json",
+      "bytes": 31523,
+      "sha256": "d23f19dff54ebe2fbe8ae5a6a5d748c3d3e29dcc41573057f554a5e85a5397a2"
+    },
+    {
+      "path": "dist/content/adding-functionality-with-test-driven-development-1.json",
+      "bytes": 77727,
+      "sha256": "d7b012ab961de5cf3cd0812d66b49ab2aa5b9ea957ce3b1a2ba9df4e6677018c"
+    },
+    {
+      "path": "dist/content/advanced-features.json",
+      "bytes": 3987,
+      "sha256": "390dd7b043282b8b235a7cbd5502b31133b9210aaf7094770f1c6bee13cfc2aa"
+    },
+    {
+      "path": "dist/content/advanced-functions-and-closures-1.json",
+      "bytes": 47598,
+      "sha256": "2e32a4c0ec65adb594b9d93528d092b29da1ffef423e90ebd7a0994f0351d1f8"
+    },
+    {
+      "path": "dist/content/advanced-traits-1.json",
+      "bytes": 135332,
+      "sha256": "c8738e65f9d2fc48e1fcca19a8ec1ea1f54da0aeca8cf459a4ec38c153f8d9f1"
+    },
+    {
+      "path": "dist/content/advanced-types-1.json",
+      "bytes": 94631,
+      "sha256": "79ae957768564d2f75afee54c60ed2009857bc3360748c54137eb0e0251766c6"
+    },
+    {
+      "path": "dist/content/all-the-places-patterns-can-be-used-1.json",
+      "bytes": 70395,
+      "sha256": "fca8eee66f86a714ccc15a8733fdf0a8d5f91612cb6cc62a81b723c80582b8e8"
+    },
+    {
+      "path": "dist/content/an-example-program-using-structs-1.json",
+      "bytes": 64746,
+      "sha256": "f964431c37df9dfd295c3f22022d3db90b125bea1c95252f62923590363b3b31"
+    },
+    {
+      "path": "dist/content/an-io-project-building-a-command-line-program.json",
+      "bytes": 9916,
+      "sha256": "0705142692d5873015beccfd1ab99ac173a0aeaf71d0af2ed08382eddd78e1e8"
+    },
+    {
+      "path": "dist/content/appendix.json",
+      "bytes": 929,
+      "sha256": "3c74d4b2a94fd2c9ac9a7b7483c9fa3b954e799eace9916c6052685a7ac16468"
+    },
+    {
+      "path": "dist/content/applying-concurrency-with-async-1.json",
+      "bytes": 98932,
+      "sha256": "1357f094c0c373fb84f83597c3424db1be414a63df3338a514288f45748e99b1"
+    },
+    {
+      "path": "dist/content/b-operators-and-symbols.json",
+      "bytes": 215517,
+      "sha256": "95dcc4b1ddb5c46073872864ac05aee640300bf829f4096fe9c61c8ab258d360"
+    },
+    {
+      "path": "dist/content/bringing-paths-into-scope-with-the-use-keyword-1.json",
+      "bytes": 116132,
+      "sha256": "fda5944abf6114ffdd73625b302a7a3b552d63a181df76ed1347b41e0644f45b"
+    },
+    {
+      "path": "dist/content/building-a-single-threaded-web-server-1.json",
+      "bytes": 99332,
+      "sha256": "bac61c65fcf02539f5f8baf6483b2d87277b117eb12730893da172c5ffb8c7fb"
+    },
+    {
+      "path": "dist/content/c-derivable-traits.json",
+      "bytes": 57003,
+      "sha256": "53a0f1afca2532a7a4f537d6f8ce398024e87a6b95e3fa29b68d393b349f77bc"
+    },
+    {
+      "path": "dist/content/cargo-workspaces-1.json",
+      "bytes": 54816,
+      "sha256": "f94478d3920710ce04a872387ab618bc1eb990c02591facdb1482c343117b52b"
+    },
+    {
+      "path": "dist/content/characteristics-of-object-oriented-languages-1.json",
+      "bytes": 45943,
+      "sha256": "542ea5c41ca4f6e877ce85175d7b68df110e5ffc9a678d09dc68b8c4052d41ee"
+    },
+    {
+      "path": "dist/content/closures-1.json",
+      "bytes": 106682,
+      "sha256": "6efd64035273df8b21f527523b61984a6976a1fdd4ee8001e30318d7df602fef"
+    },
+    {
+      "path": "dist/content/comments-1.json",
+      "bytes": 5500,
+      "sha256": "cc50eee724438c829c90cbbed0144bb285dc43def92183e7cbd58ee32c84b8cf"
+    },
+    {
+      "path": "dist/content/common-collections.json",
+      "bytes": 4051,
+      "sha256": "80c696e81c0c410fca351ba18daae8d282ac41a635f3180cc17ca00363a45ab7"
+    },
+    {
+      "path": "dist/content/common-programming-concepts.json",
+      "bytes": 3138,
+      "sha256": "464d00c3da11161b89458d2a91819a2635666c930958843e7cb545238d41bb97"
+    },
+    {
+      "path": "dist/content/concise-control-flow-with-if-let-and-letelse-1.json",
+      "bytes": 47835,
+      "sha256": "ad72c9fc550f0f26491cfeacd7606f05c7a502ca37fc096963065f814a81f3ef"
+    },
+    {
+      "path": "dist/content/control-flow-1.json",
+      "bytes": 85545,
+      "sha256": "491d25e625c3bfe59c9986e350acbc30dbf5028dc6f3de4b434a1438babbadcd"
+    },
+    {
+      "path": "dist/content/control-scope-and-privacy-with-modules-1.json",
+      "bytes": 40175,
+      "sha256": "06f0576d437b5751ddddce189e9b39b8e0c54ec561fa98bbd55dadb80fc21992"
+    },
+    {
+      "path": "dist/content/controlling-how-tests-are-run-1.json",
+      "bytes": 54975,
+      "sha256": "b8d84a4b537852f5fe1f51158d5477d05897353bab0b103ec31942aa90e50ba1"
+    },
+    {
+      "path": "dist/content/customizing-builds-with-release-profiles-1.json",
+      "bytes": 17881,
+      "sha256": "ef93550fdaaf9a44a59e8ca62e4226d2e92971cf173234add7b60322dedf81e0"
+    },
+    {
+      "path": "dist/content/d-useful-development-tools.json",
+      "bytes": 24503,
+      "sha256": "87a53bff5739b8cdf6e5e6d048b78848a2e471f190ac4d7a704918c9b7235f40"
+    },
+    {
+      "path": "dist/content/data-types-1.json",
+      "bytes": 80933,
+      "sha256": "6f611f63a9148a0bc7d48ec7e97a8da19ef3bfdff4bc8abf5f289d81bde4f1c6"
+    },
+    {
+      "path": "dist/content/defining-an-enum-1.json",
+      "bytes": 69977,
+      "sha256": "189c5980990967d4e7010218933d4d2b17dedcded70d10e089d3da75de814d27"
+    },
+    {
+      "path": "dist/content/defining-and-instantiating-structs-1.json",
+      "bytes": 67390,
+      "sha256": "e7baa06e9208900c8295fd36567c02e6c79155adc96f615467d92820819794c9"
+    },
+    {
+      "path": "dist/content/defining-shared-behavior-with-traits-1.json",
+      "bytes": 178847,
+      "sha256": "29b4e1acd7ae02de9a2e44e45d05e2a3c7cb36497215e78a73aee25364533782"
+    },
+    {
+      "path": "dist/content/e-editions.json",
+      "bytes": 8249,
+      "sha256": "4267c91741f88fd547472882cbf9439083530165aeeb6da1338b414ceb2e46d7"
+    },
+    {
+      "path": "dist/content/enums-and-pattern-matching.json",
+      "bytes": 2495,
+      "sha256": "5c8140890409fb40a394e6eff8487da3ad8e985b6b2376153f4eac7b51f1b77e"
+    },
+    {
+      "path": "dist/content/error-handling.json",
+      "bytes": 3728,
+      "sha256": "92af7cb1f51d64003a29e55131392eb157beba4d63d0216ae9fb3e82a87235d0"
+    },
+    {
+      "path": "dist/content/extending-cargo-with-custom-commands-1.json",
+      "bytes": 5031,
+      "sha256": "02154aa91da9a21c7f235bb322079d526949eed465ed281871536d95e73bdf29"
+    },
+    {
+      "path": "dist/content/extensible-concurrency-with-send-and-sync-1.json",
+      "bytes": 28295,
+      "sha256": "ef51dc12c4903dccbde4a3d42969e5aee590b1594bedd0765f56e5adcd3703ec"
+    },
+    {
+      "path": "dist/content/f-translations-of-the-book.json",
+      "bytes": 11997,
+      "sha256": "d7fef05df4633da348854cc13d230282633f95f8fcb3027b96c6997ab8ee7d5e"
+    },
+    {
+      "path": "dist/content/fearless-concurrency.json",
+      "bytes": 6710,
+      "sha256": "f78d817b5d29065ca02d58f35d1c60223b7207ba3fc65211089a231b96c50420"
+    },
+    {
+      "path": "dist/content/final-project-building-a-multithreaded-web-server.json",
+      "bytes": 7757,
+      "sha256": "78eee8150e129e7808fa88b29fad9854ede119e688d77787abd6eb0e3a9c20e7"
+    },
+    {
+      "path": "dist/content/foreword.json",
+      "bytes": 5181,
+      "sha256": "d3fc01c41fc2fb1b5eb6de654b1b3755eb55713ea135aeb666acf65d9cf06dce"
+    },
+    {
+      "path": "dist/content/from-single-threaded-to-multithreaded-server-1.json",
+      "bytes": 325325,
+      "sha256": "439ccaaa91aed35d6aa1420a852e3ed48e643ca1a42d2be3d60cf1cf38cf5497"
+    },
+    {
+      "path": "dist/content/functional-language-features-iterators-and-closures.json",
+      "bytes": 4995,
+      "sha256": "755bc4ab7631413e80701cd2438a2ddebd522b177b92baf7a511dec80a7a28ef"
+    },
+    {
+      "path": "dist/content/functions-1.json",
+      "bytes": 49070,
+      "sha256": "fc633255a6f5c8fd9de5f6666017df6e74187bb3b9ffba97d2314a8bb40d0394"
+    },
+    {
+      "path": "dist/content/fundamentals-of-asynchronous-programming-async-await-futures-and-streams.json",
+      "bytes": 25036,
+      "sha256": "5a871d9638fca42ea962c2d87a968087616d9ee97bdca69d4c6dde762b2cbc13"
+    },
+    {
+      "path": "dist/content/futures-and-the-async-syntax-1.json",
+      "bytes": 106309,
+      "sha256": "8eb71e1215861a7589d72172debea25b2517055c943e8207a5f5fe98866c9157"
+    },
+    {
+      "path": "dist/content/futures-tasks-and-threads.json",
+      "bytes": 14545,
+      "sha256": "4791f87be9176e85c88c0f59dce1aa8e5a7d7263fd5421975f85c4e75a71e7b1"
+    },
+    {
+      "path": "dist/content/g-how-rust-is-made-and-nightly-rust.json",
+      "bytes": 29705,
+      "sha256": "bb3c9e10750518f80e95d70b49313d25d2fd05fc928bcd3e8958ca2caad177f2"
+    },
+    {
+      "path": "dist/content/generic-data-types-1.json",
+      "bytes": 91320,
+      "sha256": "da80712c8274ee89c6fe6b3b52b8590fbbce616512b9784dfe239dd3feb85c0f"
+    },
+    {
+      "path": "dist/content/generic-types-traits-and-lifetimes.json",
+      "bytes": 21825,
+      "sha256": "5e0aee97d8244a899df62588ae7ce90f7a9c5919fb437bd8558ba75737106314"
+    },
+    {
+      "path": "dist/content/getting-started.json",
+      "bytes": 2616,
+      "sha256": "05cfa5a4737c6f1ffdd78c5cd423d0924ea8da07e719dad05485e4aa8259ebaa"
+    },
+    {
+      "path": "dist/content/graceful-shutdown-and-cleanup-1.json",
+      "bytes": 164326,
+      "sha256": "0d239c93532bcf726314f858f039ef4375abac8c615899b2649bbb2c55437595"
+    },
+    {
+      "path": "dist/content/hello-cargo-1.json",
+      "bytes": 38281,
+      "sha256": "f0804b0fee1e9d4ae9bd2aaa7604b0010bef751d65369d27fae3ba22bb043e4f"
+    },
+    {
+      "path": "dist/content/hello-world-1.json",
+      "bytes": 30737,
+      "sha256": "746e4c15e4de7e4e5f03ba611862fe9a7830efc6655796b86f0563b9f19eaa8c"
+    },
+    {
+      "path": "dist/content/how-to-write-tests-1.json",
+      "bytes": 203365,
+      "sha256": "fc744a9fed4765518e9f18954fb76febf9025cc901846af52114e7cb6ccd8c59"
+    },
+    {
+      "path": "dist/content/implementing-an-object-oriented-design-pattern-1.json",
+      "bytes": 294447,
+      "sha256": "34fdab2b940d9adbe89abf8116638641c0f53c3e2edbe081bb0c567450ac979b"
+    },
+    {
+      "path": "dist/content/improving-our-io-project-1.json",
+      "bytes": 143301,
+      "sha256": "3f78d76d22375c99465052b4e33c6968304d8f93fb462fb7342da95c75511406"
+    },
+    {
+      "path": "dist/content/installation-1.json",
+      "bytes": 25080,
+      "sha256": "923b8cab4b6f78df79165dc574c09419afbfd63bff2d24f5f8458de1bc9ccbd9"
+    },
+    {
+      "path": "dist/content/installing-binaries-with-cargo-install-1.json",
+      "bytes": 8860,
+      "sha256": "ae9e9f5288062af29b2de58c174da2107fb9dac75f6215f562a6d69320659270"
+    },
+    {
+      "path": "dist/content/introduction.json",
+      "bytes": 28020,
+      "sha256": "62d9b3ae5b1f0a677a7a5c0a87673f59eaa31ff3d90b55bc183c783f427c5f00"
+    },
+    {
+      "path": "dist/content/macros-1.json",
+      "bytes": 124324,
+      "sha256": "d6fbf041090bce40969ccfc78498e244b3b4c172637fa2abd3a58e118ad843f3"
+    },
+    {
+      "path": "dist/content/methods-1.json",
+      "bytes": 62290,
+      "sha256": "34e47a6e750222fc489a1261bfd1f4d8cb53467d2cd4de2a2534efa49262abe9"
+    },
+    {
+      "path": "dist/content/more-about-cargo-and-cratesio.json",
+      "bytes": 3745,
+      "sha256": "bbf0deadac5345eb1796d69ffdbd67b9969afc6db4d518b51551b9fb894ea759"
+    },
+    {
+      "path": "dist/content/object-oriented-programming-features.json",
+      "bytes": 2369,
+      "sha256": "c60a87d07d93b5a6fefcaa2aeae058a77fded1f6954ec0f5f808f1ff8f264fcb"
+    },
+    {
+      "path": "dist/content/packages-and-crates-1.json",
+      "bytes": 10384,
+      "sha256": "882be5bbd2a88592e223cc9ed99d758a79645e15be11674c252e2d4995b0bf3d"
+    },
+    {
+      "path": "dist/content/packages-crates-and-modules.json",
+      "bytes": 6493,
+      "sha256": "d9e91ded9585c03479cdf9c443dca90a0ac7cd43c88a739b4ab77ae23a2c474c"
+    },
+    {
+      "path": "dist/content/paths-for-referring-to-an-item-in-the-module-tree-1.json",
+      "bytes": 107015,
+      "sha256": "60a67a3260246abbae0a01b1b4427f3f71e3100a65a397663250552a0b955d0d"
+    },
+    {
+      "path": "dist/content/pattern-syntax-1.json",
+      "bytes": 155242,
+      "sha256": "bc974eab5d142c573eb309b15f4c82e521a19e0ef95725b7bf08039676a4b8c3"
+    },
+    {
+      "path": "dist/content/patterns-and-matching.json",
+      "bytes": 5879,
+      "sha256": "e887c98496e07a89ede6fd94e947af64bc59ea1fcef902b0b0d0284ad4bb09a7"
+    },
+    {
+      "path": "dist/content/performance-in-loops-vs-iterators-1.json",
+      "bytes": 10043,
+      "sha256": "f176d31307e3e95c1eac99fdaa6c3e3b5c394452d8cb03ad73ba35cf36b3a6f3"
+    },
+    {
+      "path": "dist/content/processing-a-series-of-items-with-iterators-1.json",
+      "bytes": 75691,
+      "sha256": "62958f4f3eededb4d9e592508d0ee926613c7d8d284addb1793a8d6d4e3f0325"
+    },
+    {
+      "path": "dist/content/programming-a-guessing-game.json",
+      "bytes": 247189,
+      "sha256": "b9b848368cc7ce229da5e2c208f047c6e8204914c05e81edc023930b998ead66"
+    },
+    {
+      "path": "dist/content/publishing-a-crate-to-cratesio-1.json",
+      "bytes": 110958,
+      "sha256": "10a0be6a2e529b4f447acc3b5e2723e9df4d6a8bb26271ae2ac6363a86bccb4e"
+    },
+    {
+      "path": "dist/content/rct-the-reference-counted-smart-pointer-1.json",
+      "bytes": 58736,
+      "sha256": "6be754081b228e18f76bc8949271a5b3413b6bb34ae6db67f4b27e0ec2d5107c"
+    },
+    {
+      "path": "dist/content/reading-a-file-1.json",
+      "bytes": 14267,
+      "sha256": "7c7cd575154b3550e4276f3ae826da3135cb27e108a85368e756deac088b9207"
+    },
+    {
+      "path": "dist/content/recoverable-errors-with-result-1.json",
+      "bytes": 166921,
+      "sha256": "27d18621d1e5c6391f857f56b34d4f51b87c708d5cbe89e968b31b8bcea0abfe"
+    },
+    {
+      "path": "dist/content/redirecting-errors-to-standard-error-1.json",
+      "bytes": 34381,
+      "sha256": "e993346215cfdedf99d44719f6493365a32f19d8c7d7f33d24527f3e094987ef"
+    },
+    {
+      "path": "dist/content/refactoring-to-improve-modularity-and-error-handling-1.json",
+      "bytes": 262780,
+      "sha256": "69e874dbfee95ea1c7c8d9155c6d0cd8fc121420600df3ba572d19a859b1859e"
+    },
+    {
+      "path": "dist/content/refcellt-and-the-interior-mutability-pattern-1.json",
+      "bytes": 175783,
+      "sha256": "344aadfda8824f51f64882206722f434e107e96b0c10a105b20e1af0f873bbbb"
+    },
+    {
+      "path": "dist/content/reference-cycles-can-leak-memory-1.json",
+      "bytes": 111760,
+      "sha256": "3cfdfdd780d86c92757a52cb8f395b319c51bc09c393d5fe179f304dcfcaf9cc"
+    },
+    {
+      "path": "dist/content/references-and-borrowing-1.json",
+      "bytes": 58561,
+      "sha256": "6ee9649973889ac3899caa952c3423934971669feea53cb058f80f1f8af2086e"
+    },
+    {
+      "path": "dist/content/refutability-whether-a-pattern-might-fail-to-match-1.json",
+      "bytes": 26640,
+      "sha256": "4b4d3b0e5dcb2081b1e428f6ebb71454f1b9a4424c96af9fa099bfc61232724e"
+    },
+    {
+      "path": "dist/content/running-code-on-cleanup-with-the-drop-trait-1.json",
+      "bytes": 46974,
+      "sha256": "20f8704d42605c0cc67cb0b640a234846390592c06e371162cb292afc89fb246"
+    },
+    {
+      "path": "dist/content/separating-modules-into-different-files-1.json",
+      "bytes": 29328,
+      "sha256": "385cc11bc74d1f9439ce2ffeef6fd416263a135a9bdb9a9fe59e169867c3a0ac"
+    },
+    {
+      "path": "dist/content/shared-state-concurrency-1.json",
+      "bytes": 68393,
+      "sha256": "4905fb68c58a9ecf3d69944e2253c45066c75b8d40f6fe8a565dbd2f76000554"
+    },
+    {
+      "path": "dist/content/smart-pointers.json",
+      "bytes": 8351,
+      "sha256": "6332e0c9eae1527553ca034b3d789d37bcdc12b2f8f8fdae15dc9506c450aeb9"
+    },
+    {
+      "path": "dist/content/storing-keys-with-associated-values-in-hash-maps-1.json",
+      "bytes": 58438,
+      "sha256": "355570cd2240fcc34581b42202d252c8cd55f5d672ccc824c3423189d3aec7cb"
+    },
+    {
+      "path": "dist/content/storing-lists-of-values-with-vectors-1.json",
+      "bytes": 53706,
+      "sha256": "d38a1b288f01b10061c8c014ee7f58ce8e9cfb95038a6439909b8f6a879e3fa6"
+    },
+    {
+      "path": "dist/content/storing-utf-8-encoded-text-with-strings-1.json",
+      "bytes": 107595,
+      "sha256": "25fc7681bd032811c6991e0fb2193d37c2d1e0f7d59622d8b710f7b6d91bf3d8"
+    },
+    {
+      "path": "dist/content/streams-futures-in-sequence-1.json",
+      "bytes": 23233,
+      "sha256": "2e6d587eed1a98d360f2bbc311e1c4f8081f260c3756745e6ab61fe82a57907b"
+    },
+    {
+      "path": "dist/content/test-organization-1.json",
+      "bytes": 55377,
+      "sha256": "2d5ff8b84f4b78d7e3c9bdef7b4ca9704e0db3b7cbc9ec876ae232782c2ca45e"
+    },
+    {
+      "path": "dist/content/the-match-control-flow-construct-1.json",
+      "bytes": 75058,
+      "sha256": "307e46071bc624f29fef2c10cc55775eb35c8df3c270a107a42c47202dfaf042"
+    },
+    {
+      "path": "dist/content/the-rust-programming-language.json",
+      "bytes": 4999,
+      "sha256": "05bba5704d2a1b91129181e35a0d1f0c3e23fbd677a378241d35b991f0b6e747"
+    },
+    {
+      "path": "dist/content/the-slice-type-1.json",
+      "bytes": 80535,
+      "sha256": "3871e569226a271ba7b9efdde6cda68b86b29e4fa7a370156d2dc6c011fb640c"
+    },
+    {
+      "path": "dist/content/to-panic-or-not-to-panic-1.json",
+      "bytes": 63378,
+      "sha256": "abc30444f2e42723d4641d6c631dc347333752930154730220864a19e64d5623"
+    },
+    {
+      "path": "dist/content/transfer-data-between-threads-with-message-passing-1.json",
+      "bytes": 72580,
+      "sha256": "597a63474bc02991f5c0b2c8b272780e4fab29b693f26a191f502b02179a7828"
+    },
+    {
+      "path": "dist/content/treating-smart-pointers-like-regular-references-1.json",
+      "bytes": 99365,
+      "sha256": "f57e4b38e6b63723bd0016508f54d7436adceb82b20d32f2d9f4193818551585"
+    },
+    {
+      "path": "dist/content/understanding-ownership.json",
+      "bytes": 1396,
+      "sha256": "a272c00d845f61901538cd5ba1111357b136ef2c29d541672f467a07b9ed1486"
+    },
+    {
+      "path": "dist/content/unrecoverable-errors-with-panic-1.json",
+      "bytes": 27852,
+      "sha256": "cfe91c9bd1db40b40221dcf3b6b2f7f05fd284f5dc1581c47e163d725033cb4b"
+    },
+    {
+      "path": "dist/content/unsafe-rust-1.json",
+      "bytes": 107852,
+      "sha256": "8e553bbb1623cead95ea1ec05e2200db67c1116a0b2084a39b248d24d9566707"
+    },
+    {
+      "path": "dist/content/using-boxt-to-point-to-data-on-the-heap-1.json",
+      "bytes": 66895,
+      "sha256": "e9e2aa234a66f9fe5341bf78739cf254fa2b5ff592206648065f2c3388194d39"
+    },
+    {
+      "path": "dist/content/using-structs-to-structure-related-data.json",
+      "bytes": 2327,
+      "sha256": "ba1e5b3c1117a2bd4907d84a1340446997eb1034ebd871bb660d5e4a6696386e"
+    },
+    {
+      "path": "dist/content/using-threads-to-run-code-simultaneously-1.json",
+      "bytes": 58250,
+      "sha256": "8ded3d7cdb162cfee751723b39843e15d661c1bd3c350b1e326b6945c60468f5"
+    },
+    {
+      "path": "dist/content/using-trait-objects-to-abstract-over-shared-behavior-1.json",
+      "bytes": 106746,
+      "sha256": "1371b1c0c62d42b94902ab294f412820e36ee1e585f4584080a05868d4badedc"
+    },
+    {
+      "path": "dist/content/validating-references-with-lifetimes-1.json",
+      "bytes": 154983,
+      "sha256": "7cbe7fdf6001c09b974966134c032edd95eaedda21a70d088589f7eaec4cfc95"
+    },
+    {
+      "path": "dist/content/variables-and-mutability-1.json",
+      "bytes": 35909,
+      "sha256": "a93143ef2a8fc88ad392e75cf526e496833ea5b0cfe124cd6274b12b9bc46dd5"
+    },
+    {
+      "path": "dist/content/what-is-ownership-1.json",
+      "bytes": 95744,
+      "sha256": "8e620f6a4fe30794224b5e4b42ac4ea03df799caf22bb973c4c6d0f69a6659d9"
+    },
+    {
+      "path": "dist/content/working-with-any-number-of-futures.json",
+      "bytes": 66216,
+      "sha256": "81b0b8040c9bab4f8c7d99dd77a3a846905815342ee3c10ec65ff5b2f6629072"
+    },
+    {
+      "path": "dist/content/working-with-environment-variables-1.json",
+      "bytes": 121018,
+      "sha256": "738dcb70114b18df102271770ffdc32c312923365b5afeab7a34194b4f677137"
+    },
+    {
+      "path": "dist/content/writing-automated-tests.json",
+      "bytes": 5282,
+      "sha256": "5078ccf74cbcffbdba18fbbe55371554f7d5a5592369f9ce67c656ed77d0d861"
+    },
+    {
+      "path": "dist/data/coverage-summary.json",
+      "bytes": 10949,
+      "sha256": "5b1a62053f4ddfad757e82cd1e9bbce9a35561589ca9700cc24484c153596498"
+    },
+    {
+      "path": "dist/data/search-index.json",
+      "bytes": 1962023,
+      "sha256": "8ee1c022f5fac2e985246da66bd689bcdaf32ed55b43a504b1027baabaed4452"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "bytes": 221,
+      "sha256": "5029c7301964bff4c4e1648580ac24d571e32d964e692b73b0f710dd73f14ca7"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 2985,
+      "sha256": "1d61d6dd867b9bd150622255d0a2682f99971e124b60f0c7af5f6de587d33c40"
+    },
+    {
+      "path": "dist/practice.js",
+      "bytes": 9119,
+      "sha256": "6d97fb257cc82bdf54ac3db7ce7c08f0aad0b5ae3b38a5db3a699003ae96351e"
+    },
+    {
+      "path": "dist/styles.css",
+      "bytes": 26191,
+      "sha256": "9884e108d7e49c7f5846e0146ddb501d814069688591f263c937e2f35efa698a"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 3904,
+      "sha256": "38315bd56cd99092ad0e802d2d9ee4c1cbb7b552b649f21c190070dfb94f765e"
+    },
+    {
+      "path": "docs/book-inventory.md",
+      "bytes": 13574,
+      "sha256": "56ff974d5e0d5964c527067568a998663c66273a57bfdf4ec12019f343cc5781"
+    },
+    {
+      "path": "docs/browser-fullbook-evidence.json",
+      "bytes": 2596,
+      "sha256": "973c0f44f43bc98fc0847bf805abe64f2a8e81232ae67a5ab4a159ef1f5df3f0"
+    },
+    {
+      "path": "docs/content-coverage-matrix.md",
+      "bytes": 20371,
+      "sha256": "8f9aaa252965e1585696bc4a228f7f095eb1a5414bc9bde08c57d11387c4e06a"
+    },
+    {
+      "path": "docs/coverage-summary.json",
+      "bytes": 10949,
+      "sha256": "5b1a62053f4ddfad757e82cd1e9bbce9a35561589ca9700cc24484c153596498"
+    },
+    {
+      "path": "docs/http-delivery-evidence.json",
+      "bytes": 186,
+      "sha256": "7cd3578e19537af94ad307175a1fea90d118e66eb27b8eb24e64a1e23ed0a974"
+    },
+    {
+      "path": "docs/implementation-status.md",
+      "bytes": 2362,
+      "sha256": "87c63af6f00bc3c6cb1d6a4698bd868fc84d5f6dcc71e5a5eaf4ec74dd212ae1"
+    },
+    {
+      "path": "docs/known-limitations.md",
+      "bytes": 2590,
+      "sha256": "1bcba22435d64522b4fb6a9883325c97aa41a2a29e3d79ddd7c1aacc40321383"
+    },
+    {
+      "path": "docs/licensing-and-attribution.md",
+      "bytes": 1583,
+      "sha256": "d85d7002786d80150b4ccb5b45d56112e74cc6d92c7958ae34100b8f8df5295f"
+    },
+    {
+      "path": "docs/qa-evidence.json",
+      "bytes": 853,
+      "sha256": "c4cc1992787d1ee4e2e1111965aa9ea60361ad8de7a16ea661a5c260786457c7"
+    },
+    {
+      "path": "docs/source-audit.md",
+      "bytes": 2024,
+      "sha256": "34c1be1707d0c4c59dea5bb24b5791c59a58da9ec633d3ce1647a52dfd2d6f53"
+    },
+    {
+      "path": "docs/testing-report.md",
+      "bytes": 6831,
+      "sha256": "e0a6dc9aebfd1af6956b5a94748c2fde28d6595d4b9787d6998b2a105b3a2d7d"
+    },
+    {
+      "path": "docs/verification-details.json",
+      "bytes": 3037446,
+      "sha256": "feedda492a8eb643ff3b3dc6e0ac06e6dd4660de52f4846f2ef3e570f9bbe44f"
+    },
+    {
+      "path": "index.html",
+      "bytes": 10497780,
+      "sha256": "a3aafc06781afb178612a3dad7f16a554e28d09a83ad7df968741ca726591ee6"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 42,
+      "sha256": "f00328ba43fe8eca5a8f8765b4997657517cf0e25d0b1989da253d6153c54699"
+    },
+    {
+      "path": "rust-atlas-complete.html",
+      "bytes": 10497780,
+      "sha256": "a3aafc06781afb178612a3dad7f16a554e28d09a83ad7df968741ca726591ee6"
+    },
+    {
+      "path": "rust-book-complete-static.html",
+      "bytes": 2795826,
+      "sha256": "2900d51c6ab78064e0e36b2b9b7b340de1249f6cc2e0effda00ab9535372dad1"
+    },
+    {
+      "path": "source/print.snapshot.html",
+      "bytes": 2764062,
+      "sha256": "1db75252aac487cc636489929ebe7a0c01610f5d945776ea224299967b3106ac"
+    },
+    {
+      "path": "source/rust-book.original.md",
+      "bytes": 2243508,
+      "sha256": "c5a6eefc965ca3ba97f0b776611fc0aaaf1805d00c43d7c5a9e7b15849ea141a"
+    },
+    {
+      "path": "src/app.js",
+      "bytes": 37352,
+      "sha256": "46bc1469e18183f101ca494b14fe6e6f0aa9adc822d03463fce28ed0960e47f2"
+    },
+    {
+      "path": "src/concepts.js",
+      "bytes": 13715,
+      "sha256": "3b66319c859ef97bebe77a5c7e08bb59aae144e4ee5d067c3a72efb53c464ace"
+    },
+    {
+      "path": "src/favicon.svg",
+      "bytes": 221,
+      "sha256": "5029c7301964bff4c4e1648580ac24d571e32d964e692b73b0f710dd73f14ca7"
+    },
+    {
+      "path": "src/index.html",
+      "bytes": 2985,
+      "sha256": "1d61d6dd867b9bd150622255d0a2682f99971e124b60f0c7af5f6de587d33c40"
+    },
+    {
+      "path": "src/practice.js",
+      "bytes": 9119,
+      "sha256": "6d97fb257cc82bdf54ac3db7ce7c08f0aad0b5ae3b38a5db3a699003ae96351e"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 26191,
+      "sha256": "9884e108d7e49c7f5846e0146ddb501d814069688591f263c937e2f35efa698a"
+    },
+    {
+      "path": "tests/browser_fullbook.py",
+      "bytes": 4764,
+      "sha256": "24b141967a4aae839e6b44afdead48fd51335bd1388fd57bc42fa6a2c7a169fd"
+    },
+    {
+      "path": "tests/browser_qa.py",
+      "bytes": 3692,
+      "sha256": "e4dbc4fc865e90d15bce5e4e4a0cde4ff569ffb118d554c359bd6da02b73b20f"
+    },
+    {
+      "path": "tests/fixtures/sample-print.html",
+      "bytes": 1164,
+      "sha256": "b0b587dcb922c1be6639bad2f43026642f55baac963282d5beb029893ac41911"
+    },
+    {
+      "path": "tests/fixtures/sample.svg",
+      "bytes": 115,
+      "sha256": "7aca6b3922d274aafdbed3eb595defbf42bbc9b1fa0f847aa31f25782eba33a5"
+    },
+    {
+      "path": "tests/http_delivery.py",
+      "bytes": 1853,
+      "sha256": "38dcb206679e6fc71b52d8fbccb2da625d74c608d9d8ba3bb0f660e8bf1a2333"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 5189,
+      "sha256": "f022c8fb1a1c0c46e3040c56a9e3dbc22abe7cc6d860f2f5e8e4089eaf786931"
+    },
+    {
+      "path": "tests/test_uploaded_fullbook.py",
+      "bytes": 4088,
+      "sha256": "955c451d9cbb450199a269747bae3ccd4f0d17b03e16f2a866bafad31768b452"
+    },
+    {
+      "path": "tools/__init__.py",
+      "bytes": 32,
+      "sha256": "dbe3c3080bc2b7430e838ded0326311071b78175b8755c6ab5fd631c8c3d70ad"
+    },
+    {
+      "path": "tools/book_pipeline.py",
+      "bytes": 40435,
+      "sha256": "e7e3c69ada3515a8fbf1e9128d4b4fe326490cf7fe564189cd4dfa3c3ac60596"
+    },
+    {
+      "path": "tools/export_standalone.py",
+      "bytes": 3300,
+      "sha256": "54efa2128a294ea9d89e0b529ac580ab957121f908eddeb485f20078e4fbed2c"
+    },
+    {
+      "path": "tools/export_static_book.py",
+      "bytes": 8431,
+      "sha256": "eec6bf04d5356bc1bcf3bdee3756d5e7b55800adc6895864948b8fc4497e3f4f"
+    },
+    {
+      "path": "tools/prepare_markdown.py",
+      "bytes": 4324,
+      "sha256": "68f291d2007940764adcc59acdbf879db9af897b32bfcb51bc361dacab3dc7c6"
+    },
+    {
+      "path": "tools/update_app_for_embedded.py",
+      "bytes": 4434,
+      "sha256": "301566bb61aef0be17ee182a588754b8d17fa59253db7fb33e93f460030e1127"
+    }
+  ]
+}

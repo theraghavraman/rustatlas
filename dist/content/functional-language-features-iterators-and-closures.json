@@ -1,0 +1,26 @@
+{
+  "slug": "functional-language-features-iterators-and-closures",
+  "title": "Functional Language Features: Iterators and Closures",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Functional Language Features: Iterators and Closures",
+      "anchor": "functional-language-features-iterators-and-closures"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"c7fd32cd7ced848b92c958f16df540ba2cb4f306ecd13519453ecfa23c4eae97\" data-atlas-id=\"functional-language-features-iterators-and-closures:heading:00001:c7fd32cd7c\" data-atlas-type=\"heading\" id=\"functional-language-features-iterators-and-closures\"><a class=\"header\" href=\"#read/functional-language-features-iterators-and-closures?anchor=functional-language-features-iterators-and-closures\">Functional Language Features: Iterators and Closures</a></h1>\n<p data-atlas-hash=\"7d5976f6eec362ebd080ecf427be4ca093dd2b7cad618d13c6c1d8a075558d71\" data-atlas-id=\"functional-language-features-iterators-and-closures:paragraph:00001:7d5976f6ee\" data-atlas-type=\"paragraph\">Rust’s design has taken inspiration from many existing languages and techniques, and one significant influence is <em>functional programming</em>. Programming in a functional style often includes using functions as values by passing them in arguments, returning them from other functions, assigning them to variables for later execution, and so forth.</p>\n<p data-atlas-hash=\"7ceda9dd3bd36537da3334ec532f8f8c94a5b29189417004a0798ee876b191df\" data-atlas-id=\"functional-language-features-iterators-and-closures:paragraph:00002:7ceda9dd3b\" data-atlas-type=\"paragraph\">In this chapter, we won’t debate the issue of what functional programming is or isn’t but will instead discuss some features of Rust that are similar to features in many languages often referred to as functional.</p>\n<p data-atlas-hash=\"70fb19ff9e27f51ed85160e8c7f7bd3768134c8c6b04151c5d3a66121e71c9c0\" data-atlas-id=\"functional-language-features-iterators-and-closures:paragraph:00003:70fb19ff9e\" data-atlas-type=\"paragraph\">More specifically, we’ll cover:</p>\n<ul data-atlas-hash=\"42ed6762d2fecb3be31b9d4272f72c0721cb170ecae9c2f8f7227d926b857d1e\" data-atlas-id=\"functional-language-features-iterators-and-closures:list:00001:42ed6762d2\" data-atlas-type=\"list\">\n<li data-atlas-hash=\"f884312e6ccd31162693efc66efca95cf2f32d050619101952cdaecb35bad8dd\" data-atlas-id=\"functional-language-features-iterators-and-closures:list_item:00001:f884312e6c\" data-atlas-type=\"list_item\"><em>Closures</em>, a function-like construct you can store in a variable</li>\n<li data-atlas-hash=\"db9abff7e3a67aa74fe0bccc5b6009f9e5eaff72ab88aa66125768a74b2c3077\" data-atlas-id=\"functional-language-features-iterators-and-closures:list_item:00002:db9abff7e3\" data-atlas-type=\"list_item\"><em>Iterators</em>, a way of processing a series of elements</li>\n<li data-atlas-hash=\"85cd1e467f516ecc8610688d15b41d2c1443f7a9f3f3745bf43f57de787d23ec\" data-atlas-id=\"functional-language-features-iterators-and-closures:list_item:00003:85cd1e467f\" data-atlas-type=\"list_item\">How to use closures and iterators to improve the I/O project in Chapter 12</li>\n<li data-atlas-hash=\"3d4cb51539c59df5e0737be9e94aea674fc0f9b5be727cdf3f0b0402e334591f\" data-atlas-id=\"functional-language-features-iterators-and-closures:list_item:00004:3d4cb51539\" data-atlas-type=\"list_item\">The performance of closures and iterators (spoiler alert: They’re faster than you might think!)</li>\n</ul>\n<p data-atlas-hash=\"1e66a77e330648afe0843e358cc32680491e65695aa5be82c06fef93365f985b\" data-atlas-id=\"functional-language-features-iterators-and-closures:paragraph:00004:1e66a77e33\" data-atlas-type=\"paragraph\">We’ve already covered some other Rust features, such as pattern matching and enums, that are also influenced by the functional style. Because mastering closures and iterators is an important part of writing fast, idiomatic, Rust code, we’ll devote this entire chapter to them.</p>",
+  "source_visible_text_sha256": "de74121182fbf2ce3a56ca8da262dac570ec18614a69f927de6fac4fdea104a2",
+  "element_ids": [
+    "functional-language-features-iterators-and-closures:heading:00001:c7fd32cd7c",
+    "functional-language-features-iterators-and-closures:paragraph:00001:7d5976f6ee",
+    "functional-language-features-iterators-and-closures:paragraph:00002:7ceda9dd3b",
+    "functional-language-features-iterators-and-closures:paragraph:00003:70fb19ff9e",
+    "functional-language-features-iterators-and-closures:list:00001:42ed6762d2",
+    "functional-language-features-iterators-and-closures:list_item:00001:f884312e6c",
+    "functional-language-features-iterators-and-closures:list_item:00002:db9abff7e3",
+    "functional-language-features-iterators-and-closures:list_item:00003:85cd1e467f",
+    "functional-language-features-iterators-and-closures:list_item:00004:3d4cb51539",
+    "functional-language-features-iterators-and-closures:paragraph:00004:1e66a77e33"
+  ],
+  "source_type": "book"
+}

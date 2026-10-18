@@ -1,0 +1,19 @@
+{
+  "slug": "using-structs-to-structure-related-data",
+  "title": "Using Structs to Structure Related Data",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Using Structs to Structure Related Data",
+      "anchor": "using-structs-to-structure-related-data"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"b0af6a8387737d7f4b76763999b3c466bdbf2c673bfc7c4be3a528e4cd9fdb78\" data-atlas-id=\"using-structs-to-structure-related-data:heading:00001:b0af6a8387\" data-atlas-type=\"heading\" id=\"using-structs-to-structure-related-data\"><a class=\"header\" href=\"#read/using-structs-to-structure-related-data?anchor=using-structs-to-structure-related-data\">Using Structs to Structure Related Data</a></h1>\n<p data-atlas-hash=\"83d65a787f8017ca6734643d03c678a10a6c0ffc57e7ebd02c3e90a6ae05e9a6\" data-atlas-id=\"using-structs-to-structure-related-data:paragraph:00001:83d65a787f\" data-atlas-type=\"paragraph\">A <em>struct</em>, or <em>structure</em>, is a custom data type that lets you package together and name multiple related values that make up a meaningful group. If you’re familiar with an object-oriented language, a struct is like an object’s data attributes. In this chapter, we’ll compare and contrast tuples with structs to build on what you already know and demonstrate when structs are a better way to group data.</p>\n<p data-atlas-hash=\"80256a041b42c49206d278cfc4aa84201776808df1f06dc13c9f01ddf1475f8a\" data-atlas-id=\"using-structs-to-structure-related-data:paragraph:00002:80256a041b\" data-atlas-type=\"paragraph\">We’ll demonstrate how to define and instantiate structs. We’ll discuss how to define associated functions, especially the kind of associated functions called <em>methods</em>, to specify behavior associated with a struct type. Structs and enums (discussed in Chapter 6) are the building blocks for creating new types in your program’s domain to take full advantage of Rust’s compile-time type checking.</p>",
+  "source_visible_text_sha256": "fe025695e7a145f3598445c1e89137357861def6166575c6dff2f9a632781f14",
+  "element_ids": [
+    "using-structs-to-structure-related-data:heading:00001:b0af6a8387",
+    "using-structs-to-structure-related-data:paragraph:00001:83d65a787f",
+    "using-structs-to-structure-related-data:paragraph:00002:80256a041b"
+  ],
+  "source_type": "book"
+}

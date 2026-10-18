@@ -1,0 +1,27 @@
+{
+  "slug": "writing-automated-tests",
+  "title": "Writing Automated Tests",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Writing Automated Tests",
+      "anchor": "writing-automated-tests"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"e0f5b86d564bcc2bc8b52bb030663361cebbbde9e47d90ee9d51751b01961a7e\" data-atlas-id=\"writing-automated-tests:heading:00001:e0f5b86d56\" data-atlas-type=\"heading\" id=\"writing-automated-tests\"><a class=\"header\" href=\"#read/writing-automated-tests?anchor=writing-automated-tests\">Writing Automated Tests</a></h1>\n<p data-atlas-hash=\"10df27014372bff25562b503e061a3dc31d14b080c72971d7ddc677ea92ffbf6\" data-atlas-id=\"writing-automated-tests:paragraph:00001:10df270143\" data-atlas-type=\"paragraph\">In his 1972 essay “The Humble Programmer,” Edsger W. Dijkstra said that “program testing can be a very effective way to show the presence of bugs, but it is hopelessly inadequate for showing their absence.” That doesn’t mean we shouldn’t try to test as much as we can!</p>\n<p data-atlas-hash=\"cf36a69980ed6253f9efdae5a345e550179eb46c433cb7537faab0f32136b925\" data-atlas-id=\"writing-automated-tests:paragraph:00002:cf36a69980\" data-atlas-type=\"paragraph\"><em>Correctness</em> in our programs is the extent to which our code does what we intend it to do. Rust is designed with a high degree of concern about the correctness of programs, but correctness is complex and not easy to prove. Rust’s type system shoulders a huge part of this burden, but the type system cannot catch everything. As such, Rust includes support for writing automated software tests.</p>\n<p data-atlas-hash=\"269b6b170f3f32248e794cd97ca6c3c5b2f215fbae608b915460592ae8a18084\" data-atlas-id=\"writing-automated-tests:paragraph:00003:269b6b170f\" data-atlas-type=\"paragraph\">Say we write a function <code data-atlas-hash=\"62f2361f51db03776d6afd7388fbd46b8da65a2b3bf6cb638eb7f75c01d964f2\" data-atlas-id=\"writing-automated-tests:inline_code:00001:62f2361f51\" data-atlas-type=\"inline_code\">add_two</code> that adds 2 to whatever number is passed to it. This function’s signature accepts an integer as a parameter and returns an integer as a result. When we implement and compile that function, Rust does all the type checking and borrow checking that you’ve learned so far to ensure that, for instance, we aren’t passing a <code data-atlas-hash=\"b2ef230e7f4f315a28cdcc863028da31f7110f3209feb76e76fed0f37b3d8580\" data-atlas-id=\"writing-automated-tests:inline_code:00002:b2ef230e7f\" data-atlas-type=\"inline_code\">String</code> value or an invalid reference to this function. But Rust <em>can’t</em> check that this function will do precisely what we intend, which is return the parameter plus 2 rather than, say, the parameter plus 10 or the parameter minus 50! That’s where tests come in.</p>\n<p data-atlas-hash=\"67ddd6bfd64f25e8dcd77e665d13c4fdd0a0887cc5458a9ad0c3ca3aab284748\" data-atlas-id=\"writing-automated-tests:paragraph:00004:67ddd6bfd6\" data-atlas-type=\"paragraph\">We can write tests that assert, for example, that when we pass <code data-atlas-hash=\"4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce\" data-atlas-id=\"writing-automated-tests:inline_code:00003:4e07408562\" data-atlas-type=\"inline_code\">3</code> to the <code data-atlas-hash=\"62f2361f51db03776d6afd7388fbd46b8da65a2b3bf6cb638eb7f75c01d964f2\" data-atlas-id=\"writing-automated-tests:inline_code:00004:62f2361f51\" data-atlas-type=\"inline_code\">add_two</code> function, the returned value is <code data-atlas-hash=\"ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d\" data-atlas-id=\"writing-automated-tests:inline_code:00005:ef2d127de3\" data-atlas-type=\"inline_code\">5</code>. We can run these tests whenever we make changes to our code to make sure any existing correct behavior has not changed.</p>\n<p data-atlas-hash=\"abd785e907f5ae735a14658954f1f2181816de163c2d0039cdff05f6865f30a2\" data-atlas-id=\"writing-automated-tests:paragraph:00005:abd785e907\" data-atlas-type=\"paragraph\">Testing is a complex skill: Although we can’t cover in one chapter every detail about how to write good tests, in this chapter we will discuss the mechanics of Rust’s testing facilities. We’ll talk about the annotations and macros available to you when writing your tests, the default behavior and options provided for running your tests, and how to organize tests into unit tests and integration tests.</p>",
+  "source_visible_text_sha256": "600053a6746fcf69c3f91a559a39f9003e857ac2d1f18acb38d6a73d1532988e",
+  "element_ids": [
+    "writing-automated-tests:heading:00001:e0f5b86d56",
+    "writing-automated-tests:paragraph:00001:10df270143",
+    "writing-automated-tests:paragraph:00002:cf36a69980",
+    "writing-automated-tests:paragraph:00003:269b6b170f",
+    "writing-automated-tests:inline_code:00001:62f2361f51",
+    "writing-automated-tests:inline_code:00002:b2ef230e7f",
+    "writing-automated-tests:paragraph:00004:67ddd6bfd6",
+    "writing-automated-tests:inline_code:00003:4e07408562",
+    "writing-automated-tests:inline_code:00004:62f2361f51",
+    "writing-automated-tests:inline_code:00005:ef2d127de3",
+    "writing-automated-tests:paragraph:00005:abd785e907"
+  ],
+  "source_type": "book"
+}

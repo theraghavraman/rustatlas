@@ -1,0 +1,18 @@
+{
+  "slug": "appendix",
+  "title": "Appendix",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Appendix",
+      "anchor": "appendix"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"2d4b3e2813c6058b5f056f91316db8c83f4d685cc5596bc61e4bb14d4b4b1680\" data-atlas-id=\"appendix:heading:00001:2d4b3e2813\" data-atlas-type=\"heading\" id=\"appendix\"><a class=\"header\" href=\"#read/appendix?anchor=appendix\">Appendix</a></h1>\n<p data-atlas-hash=\"4b8b55002d4c4aef2a58ab5073d4e81971d86411160db46919203047048c43ac\" data-atlas-id=\"appendix:paragraph:00001:4b8b55002d\" data-atlas-type=\"paragraph\">The following sections contain reference material you may find useful in your Rust journey.</p>",
+  "source_visible_text_sha256": "d4a0b5f7558c27f6b40df3dc66ce6e7e746e26face4ad79a8282e609ab2972c2",
+  "element_ids": [
+    "appendix:heading:00001:2d4b3e2813",
+    "appendix:paragraph:00001:4b8b55002d"
+  ],
+  "source_type": "book"
+}

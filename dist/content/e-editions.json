@@ -1,0 +1,41 @@
+{
+  "slug": "e-editions",
+  "title": "E - Editions",
+  "headings": [
+    {
+      "level": 1,
+      "title": "E - Editions",
+      "anchor": "e---editions"
+    },
+    {
+      "level": 2,
+      "title": "Appendix E: Editions",
+      "anchor": "appendix-e-editions"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"b6e12236bcdaa0d5bb4c185fa66f78bf7d1833c8e19ffa1f4b9b7a8abac60c02\" data-atlas-id=\"e-editions:heading:00001:b6e12236bc\" data-atlas-type=\"heading\" id=\"e---editions\"><a class=\"header\" href=\"#read/e-editions?anchor=e---editions\">E - Editions</a></h1>\n<h2 data-atlas-hash=\"70c7e94e999a84c808f77d486ea2f9b1b9a50317e986319242bb639421cfb2e9\" data-atlas-id=\"e-editions:heading:00002:70c7e94e99\" data-atlas-type=\"heading\" id=\"appendix-e-editions\"><a class=\"header\" href=\"#read/e-editions?anchor=appendix-e-editions\">Appendix E: Editions</a></h2>\n<p data-atlas-hash=\"a459edc2666a455a614c673dd7b0345f8f5ff148fa22bf7ddfbb86cf0dbe7cf2\" data-atlas-id=\"e-editions:paragraph:00001:a459edc266\" data-atlas-type=\"paragraph\">In Chapter 1, you saw that <code data-atlas-hash=\"7466a13233bef7cc79d37af95e4238d7bf55a435827d3163d0bcbec3c0444830\" data-atlas-id=\"e-editions:inline_code:00001:7466a13233\" data-atlas-type=\"inline_code\">cargo new</code> adds a bit of metadata to your <em>Cargo.toml</em> file about an edition. This appendix talks about what that means!</p>\n<p data-atlas-hash=\"54f398ec4d85e29846f07be577f54a7128c6a9c937906824954634906a55da97\" data-atlas-id=\"e-editions:paragraph:00002:54f398ec4d\" data-atlas-type=\"paragraph\">The Rust language and compiler have a six-week release cycle, meaning users get a constant stream of new features. Other programming languages release larger changes less often; Rust releases smaller updates more frequently. After a while, all of these tiny changes add up. But from release to release, it can be difficult to look back and say, “Wow, between Rust 1.10 and Rust 1.31, Rust has changed a lot!”</p>\n<p data-atlas-hash=\"4cdbb1c630e6cf17639f44c9795ffa4219405a46dd35de91346f628524fbc49b\" data-atlas-id=\"e-editions:paragraph:00003:4cdbb1c630\" data-atlas-type=\"paragraph\">Every three years or so, the Rust team produces a new Rust <em>edition</em>. Each edition brings together the features that have landed into a clear package with fully updated documentation and tooling. New editions ship as part of the usual six-week release process.</p>\n<p data-atlas-hash=\"fa4525ea3a548a04a3816339ae5b051786fd61338d7603bc2155ab492c67beb6\" data-atlas-id=\"e-editions:paragraph:00004:fa4525ea3a\" data-atlas-type=\"paragraph\">Editions serve different purposes for different people:</p>\n<ul data-atlas-hash=\"1b600a81002793daf97e6d7ea817a4a24ec15057238f89651b44c7fc4f627b11\" data-atlas-id=\"e-editions:list:00001:1b600a8100\" data-atlas-type=\"list\">\n<li data-atlas-hash=\"87124d0a0fbf0521e32fb9541e9d02a65915e521ee857fb1aa9e8265080c2c06\" data-atlas-id=\"e-editions:list_item:00001:87124d0a0f\" data-atlas-type=\"list_item\">For active Rust users, a new edition brings together incremental changes into an easy-to-understand package.</li>\n<li data-atlas-hash=\"7a843bf5837205da934d9afbc099cc353398b49b97472e440f8bcc017ac72775\" data-atlas-id=\"e-editions:list_item:00002:7a843bf583\" data-atlas-type=\"list_item\">For non-users, a new edition signals that some major advancements have landed, which might make Rust worth another look.</li>\n<li data-atlas-hash=\"129fc3aaab240afaae25aeac45ee9754cef48d528e63f50f0e54575a9062a9f3\" data-atlas-id=\"e-editions:list_item:00003:129fc3aaab\" data-atlas-type=\"list_item\">For those developing Rust, a new edition provides a rallying point for the project as a whole.</li>\n</ul>\n<p data-atlas-hash=\"2ffe0444c66b54f4067691403d4acc1cae0794239cd50c1df4c946112d1fb880\" data-atlas-id=\"e-editions:paragraph:00005:2ffe0444c6\" data-atlas-type=\"paragraph\">At the time of this writing, four Rust editions are available: Rust 2015, Rust 2018, Rust 2021, and Rust 2024. This book is written using Rust 2024 edition idioms.</p>\n<p data-atlas-hash=\"888b990ed97b7bf04616818141639fed1241d08acbd6e05d921cfea33b3cecee\" data-atlas-id=\"e-editions:paragraph:00006:888b990ed9\" data-atlas-type=\"paragraph\">The <code data-atlas-hash=\"6a3be761036549131b35f41209a76f395f0e49370ca37e2f27b32770c6c30d8e\" data-atlas-id=\"e-editions:inline_code:00002:6a3be76103\" data-atlas-type=\"inline_code\">edition</code> key in <em>Cargo.toml</em> indicates which edition the compiler should use for your code. If the key doesn’t exist, Rust uses <code data-atlas-hash=\"a85e9db4851f7cd3efb8db7bf69a07cfb97bc528b72785a9cff7bdfef7e2279d\" data-atlas-id=\"e-editions:inline_code:00003:a85e9db485\" data-atlas-type=\"inline_code\">2015</code> as the edition value for backward compatibility reasons.</p>\n<p data-atlas-hash=\"f556430f2e418b773c945ceabdae34362552526833d61b8875263be8efac388f\" data-atlas-id=\"e-editions:paragraph:00007:f556430f2e\" data-atlas-type=\"paragraph\">Each project can opt in to an edition other than the default 2015 edition. Editions can contain incompatible changes, such as including a new keyword that conflicts with identifiers in code. However, unless you opt in to those changes, your code will continue to compile even as you upgrade the Rust compiler version you use.</p>\n<p data-atlas-hash=\"6caab680c299ee207c8e1b63ace68e1702ff382271351ea9efd27db29d56ea57\" data-atlas-id=\"e-editions:paragraph:00008:6caab680c2\" data-atlas-type=\"paragraph\">All Rust compiler versions support any edition that existed prior to that compiler’s release, and they can link crates of any supported editions together. Edition changes only affect the way the compiler initially parses code. Therefore, if you’re using Rust 2015 and one of your dependencies uses Rust 2018, your project will compile and be able to use that dependency. The opposite situation, where your project uses Rust 2018 and a dependency uses Rust 2015, works as well.</p>\n<p data-atlas-hash=\"1d41b9ef6161d3d25485074e66c6acf09b801b30d79e404b2e9c9896d8134621\" data-atlas-id=\"e-editions:paragraph:00009:1d41b9ef61\" data-atlas-type=\"paragraph\">To be clear: Most features will be available on all editions. Developers using any Rust edition will continue to see improvements as new stable releases are made. However, in some cases, mainly when new keywords are added, some new features might only be available in later editions. You will need to switch editions if you want to take advantage of such features.</p>\n<p data-atlas-hash=\"2ab6b1ca8d2cbf4d0fd662675d7e9c1e12791eb7cbe469ce2b3522ef8275aa78\" data-atlas-id=\"e-editions:paragraph:00010:2ab6b1ca8d\" data-atlas-type=\"paragraph\">For more details, see <a href=\"https://doc.rust-lang.org/stable/edition-guide\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Rust Edition Guide</em></a>. This is a complete book that enumerates the differences between editions and explains how to automatically upgrade your code to a new edition via <code data-atlas-hash=\"2bbb4b07545840e865d363a4ecf069d57cdf11c6028c64a30b1e5b81a58c7f01\" data-atlas-id=\"e-editions:inline_code:00004:2bbb4b0754\" data-atlas-type=\"inline_code\">cargo fix</code>.</p>",
+  "source_visible_text_sha256": "24aebdaa09b17863fd19e584077b8a5257b99b28decf5f22217f11fed2461895",
+  "element_ids": [
+    "e-editions:heading:00001:b6e12236bc",
+    "e-editions:heading:00002:70c7e94e99",
+    "e-editions:paragraph:00001:a459edc266",
+    "e-editions:inline_code:00001:7466a13233",
+    "e-editions:paragraph:00002:54f398ec4d",
+    "e-editions:paragraph:00003:4cdbb1c630",
+    "e-editions:paragraph:00004:fa4525ea3a",
+    "e-editions:list:00001:1b600a8100",
+    "e-editions:list_item:00001:87124d0a0f",
+    "e-editions:list_item:00002:7a843bf583",
+    "e-editions:list_item:00003:129fc3aaab",
+    "e-editions:paragraph:00005:2ffe0444c6",
+    "e-editions:paragraph:00006:888b990ed9",
+    "e-editions:inline_code:00002:6a3be76103",
+    "e-editions:inline_code:00003:a85e9db485",
+    "e-editions:paragraph:00007:f556430f2e",
+    "e-editions:paragraph:00008:6caab680c2",
+    "e-editions:paragraph:00009:1d41b9ef61",
+    "e-editions:paragraph:00010:2ab6b1ca8d",
+    "e-editions:inline_code:00004:2bbb4b0754"
+  ],
+  "source_type": "book"
+}

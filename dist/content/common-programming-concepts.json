@@ -1,0 +1,26 @@
+{
+  "slug": "common-programming-concepts",
+  "title": "Common Programming Concepts",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Common Programming Concepts",
+      "anchor": "common-programming-concepts"
+    },
+    {
+      "level": 4,
+      "title": "Keywords",
+      "anchor": "keywords"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"7c5bca6a8100443a1dc070eb36fb48006c505ee1aefe1dcfda65d49d7e3a784a\" data-atlas-id=\"common-programming-concepts:heading:00001:7c5bca6a81\" data-atlas-type=\"heading\" id=\"common-programming-concepts\"><a class=\"header\" href=\"#read/common-programming-concepts?anchor=common-programming-concepts\">Common Programming Concepts</a></h1>\n<p data-atlas-hash=\"2836eae4e46e6c4d59b8d50997a925945319da8827bed634bc80f847c27a2ffe\" data-atlas-id=\"common-programming-concepts:paragraph:00001:2836eae4e4\" data-atlas-type=\"paragraph\">This chapter covers concepts that appear in almost every programming language and how they work in Rust. Many programming languages have much in common at their core. None of the concepts presented in this chapter are unique to Rust, but we’ll discuss them in the context of Rust and explain the conventions around using them.</p>\n<p data-atlas-hash=\"506fc761f348af464ff133423558ee470135077dff89b53eeb3b66fe321b452b\" data-atlas-id=\"common-programming-concepts:paragraph:00002:506fc761f3\" data-atlas-type=\"paragraph\">Specifically, you’ll learn about variables, basic types, functions, comments, and control flow. These foundations will be in every Rust program, and learning them early will give you a strong core to start from.</p>\n<h4 data-atlas-hash=\"8bfdb93cafaa91477de5fa9fa09d33946f57adae516e2ab45a309df988f36ba1\" data-atlas-id=\"common-programming-concepts:heading:00002:8bfdb93caf\" data-atlas-type=\"heading\" id=\"keywords\"><a class=\"header\" href=\"#read/common-programming-concepts?anchor=keywords\">Keywords</a></h4>\n<p data-atlas-hash=\"c03223af1c106b77f7c320f7fcc07c9a44b63241432ddccb99a72eed8651860c\" data-atlas-id=\"common-programming-concepts:paragraph:00003:c03223af1c\" data-atlas-type=\"paragraph\">The Rust language has a set of <em>keywords</em> that are reserved for use by the language only, much as in other languages. Keep in mind that you cannot use these words as names of variables or functions. Most of the keywords have special meanings, and you’ll be using them to do various tasks in your Rust programs; a few have no current functionality associated with them but have been reserved for functionality that might be added to Rust in the future. You can find the list of the keywords in <a href=\"#read/a-keywords?anchor=a---keywords\">Appendix A</a>.</p>",
+  "source_visible_text_sha256": "68d2fd17a366df4f10353964194a50b8fc14f3993f3b24aa1fde24733f5a55c4",
+  "element_ids": [
+    "common-programming-concepts:heading:00001:7c5bca6a81",
+    "common-programming-concepts:paragraph:00001:2836eae4e4",
+    "common-programming-concepts:paragraph:00002:506fc761f3",
+    "common-programming-concepts:heading:00002:8bfdb93caf",
+    "common-programming-concepts:paragraph:00003:c03223af1c"
+  ],
+  "source_type": "book"
+}

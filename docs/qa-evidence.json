@@ -1,0 +1,26 @@
+{
+  "source": "user-uploaded Rust Book Markdown",
+  "source_file": "source/rust-book.original.md",
+  "content": "15,609/15,609 mapped elements verified; 111 pages; 628 headings; 957 code blocks; 433 figures; 13 tables",
+  "original_media": "28 references; 0 bundled image bytes; unverified and externally linked",
+  "python_tests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "chromium_document_smoke": {
+    "passed": 27,
+    "failed": 0,
+    "viewports": [
+      1440,
+      800,
+      390
+    ],
+    "method": "Playwright set_content of exact standalone HTML; URL navigation blocked by environment policy"
+  },
+  "static_http_deliverable": {
+    "resources_ok": 119,
+    "resources_failed": 0
+  },
+  "pure_html_text_parity": "equal to source converted HTML; all tracked heading/code/table/figure/image counts match",
+  "full_release_verified": false
+}

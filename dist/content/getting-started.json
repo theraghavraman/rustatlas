@@ -1,0 +1,24 @@
+{
+  "slug": "getting-started",
+  "title": "Getting Started",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Getting Started",
+      "anchor": "getting-started"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"d00eca1bae6742803906ab42a831e8b5396d15b6573ea13c139ec31631208ec1\" data-atlas-id=\"getting-started:heading:00001:d00eca1bae\" data-atlas-type=\"heading\" id=\"getting-started\"><a class=\"header\" href=\"#read/getting-started?anchor=getting-started\">Getting Started</a></h1>\n<p data-atlas-hash=\"eae0218f7f5a7c15c91f29bba7c6495f18b2013c8ad891ffe7fb2641656eeb4a\" data-atlas-id=\"getting-started:paragraph:00001:eae0218f7f\" data-atlas-type=\"paragraph\">Let’s start your Rust journey! There’s a lot to learn, but every journey starts somewhere. In this chapter, we’ll discuss:</p>\n<ul data-atlas-hash=\"b321c6ce9331ae9b758d052bba3a4156f1e1c2a672542ef999a4aaa075506dab\" data-atlas-id=\"getting-started:list:00001:b321c6ce93\" data-atlas-type=\"list\">\n<li data-atlas-hash=\"b1db1072d827254b99ff1030be752faf854e0de470a0debcc4277eacd1d0d90e\" data-atlas-id=\"getting-started:list_item:00001:b1db1072d8\" data-atlas-type=\"list_item\">Installing Rust on Linux, macOS, and Windows</li>\n<li data-atlas-hash=\"e819927d52640b6d3f40c240873779a5e872597ab351542dfd4f1e9d7c986b8c\" data-atlas-id=\"getting-started:list_item:00002:e819927d52\" data-atlas-type=\"list_item\">Writing a program that prints <code data-atlas-hash=\"315f5bdb76d078c43b8ac0064e4a0164612b1fce77c869345bfc94c75894edd3\" data-atlas-id=\"getting-started:inline_code:00001:315f5bdb76\" data-atlas-type=\"inline_code\">Hello, world!</code></li>\n<li data-atlas-hash=\"ae2bbdf86d8f989fadaba18080c4f66b65551a64266f5fcc8957e337020b8541\" data-atlas-id=\"getting-started:list_item:00003:ae2bbdf86d\" data-atlas-type=\"list_item\">Using <code data-atlas-hash=\"3322532d8589f95c912a7c956aecd5b0d8847263b9021438c72a126041f612e8\" data-atlas-id=\"getting-started:inline_code:00002:3322532d85\" data-atlas-type=\"inline_code\">cargo</code>, Rust’s package manager and build system</li>\n</ul>",
+  "source_visible_text_sha256": "926998ea1b748dd7fc3fb053f961b73838ba8b95dfc2cd6e8badf40075803982",
+  "element_ids": [
+    "getting-started:heading:00001:d00eca1bae",
+    "getting-started:paragraph:00001:eae0218f7f",
+    "getting-started:list:00001:b321c6ce93",
+    "getting-started:list_item:00001:b1db1072d8",
+    "getting-started:list_item:00002:e819927d52",
+    "getting-started:inline_code:00001:315f5bdb76",
+    "getting-started:list_item:00003:ae2bbdf86d",
+    "getting-started:inline_code:00002:3322532d85"
+  ],
+  "source_type": "book"
+}

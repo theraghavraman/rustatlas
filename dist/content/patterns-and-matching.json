@@ -1,0 +1,32 @@
+{
+  "slug": "patterns-and-matching",
+  "title": "Patterns and Matching",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Patterns and Matching",
+      "anchor": "patterns-and-matching"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"2673e83fa599d14c6a9f78f5cd11381ee48b599bdf4d3203d783f7542c504893\" data-atlas-id=\"patterns-and-matching:heading:00001:2673e83fa5\" data-atlas-type=\"heading\" id=\"patterns-and-matching\"><a class=\"header\" href=\"#read/patterns-and-matching?anchor=patterns-and-matching\">Patterns and Matching</a></h1>\n<p data-atlas-hash=\"290167f3dee9d27ae8b243aeb9bd1df0e465d5fde4450279c1c59edd897deb4a\" data-atlas-id=\"patterns-and-matching:paragraph:00001:290167f3de\" data-atlas-type=\"paragraph\">Patterns are a special syntax in Rust for matching against the structure of types, both complex and simple. Using patterns in conjunction with <code data-atlas-hash=\"4945a70fa7f9c13fe1931a3372ac5798140d42eba74d0dd805a4a216ed3a8142\" data-atlas-id=\"patterns-and-matching:inline_code:00001:4945a70fa7\" data-atlas-type=\"inline_code\">match</code> expressions and other constructs gives you more control over a program’s control flow. A pattern consists of some combination of the following:</p>\n<ul data-atlas-hash=\"fabb8ef6c9cd575481c94844cff5e30b20836382d1a8b45755923075b5539f19\" data-atlas-id=\"patterns-and-matching:list:00001:fabb8ef6c9\" data-atlas-type=\"list\">\n<li data-atlas-hash=\"cbb293393cf0a33fa294cdd03c76901e5b3ada50445e3d30fdcd20cfc8afe9d3\" data-atlas-id=\"patterns-and-matching:list_item:00001:cbb293393c\" data-atlas-type=\"list_item\">Literals</li>\n<li data-atlas-hash=\"e0ccab59bc25a71c3d0736547a71cd6fb34a5559d85e35d1c5562a74b8ee3281\" data-atlas-id=\"patterns-and-matching:list_item:00002:e0ccab59bc\" data-atlas-type=\"list_item\">Destructured arrays, enums, structs, or tuples</li>\n<li data-atlas-hash=\"02db55bac5e3f7ceb98fdea15d7dfcfd40efcc41b777d10c2a8483b571f332bd\" data-atlas-id=\"patterns-and-matching:list_item:00003:02db55bac5\" data-atlas-type=\"list_item\">Variables</li>\n<li data-atlas-hash=\"f9ff788e8c0ea5ae8e007038536d43b3c69433e706742793e12c29ce4a145abf\" data-atlas-id=\"patterns-and-matching:list_item:00004:f9ff788e8c\" data-atlas-type=\"list_item\">Wildcards</li>\n<li data-atlas-hash=\"89cd50263d87a700ead96f18634d41994df113ffb69188f4f4f4db9fe0896539\" data-atlas-id=\"patterns-and-matching:list_item:00005:89cd50263d\" data-atlas-type=\"list_item\">Placeholders</li>\n</ul>\n<p data-atlas-hash=\"f80fc132ba4b2685f8aeeca1848e99c418d8fe649476513d8242022fab249f58\" data-atlas-id=\"patterns-and-matching:paragraph:00002:f80fc132ba\" data-atlas-type=\"paragraph\">Some example patterns include <code data-atlas-hash=\"2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881\" data-atlas-id=\"patterns-and-matching:inline_code:00002:2d711642b7\" data-atlas-type=\"inline_code\">x</code>, <code data-atlas-hash=\"9fd5b8a6f8b7f9dc7c0b5b0a5a868db76dc6938e5777c51202cefee41a6fc4fa\" data-atlas-id=\"patterns-and-matching:inline_code:00003:9fd5b8a6f8\" data-atlas-type=\"inline_code\">(a, 3)</code>, and <code data-atlas-hash=\"abc3303edfaac2590a96aa1756b7791c2cdd8e4cc2ea5c153978c72b0cb2cd45\" data-atlas-id=\"patterns-and-matching:inline_code:00004:abc3303edf\" data-atlas-type=\"inline_code\">Some(Color::Red)</code>. In the contexts in which patterns are valid, these components describe the shape of data. Our program then matches values against the patterns to determine whether it has the correct shape of data to continue running a particular piece of code.</p>\n<p data-atlas-hash=\"80f64111d25dd569fc2f0cd84d8dc6c30a712b509cc2a86118cbe02c112a6f18\" data-atlas-id=\"patterns-and-matching:paragraph:00003:80f64111d2\" data-atlas-type=\"paragraph\">To use a pattern, we compare it to some value. If the pattern matches the value, we use the value parts in our code. Recall the <code data-atlas-hash=\"4945a70fa7f9c13fe1931a3372ac5798140d42eba74d0dd805a4a216ed3a8142\" data-atlas-id=\"patterns-and-matching:inline_code:00005:4945a70fa7\" data-atlas-type=\"inline_code\">match</code> expressions in Chapter 6 that used patterns, such as the coin-sorting machine example. If the value fits the shape of the pattern, we can use the named pieces. If it doesn’t, the code associated with the pattern won’t run.</p>\n<p data-atlas-hash=\"7974986d5134f247c063243ac10f692233bed36d75e1e01a41106094e7e1f196\" data-atlas-id=\"patterns-and-matching:paragraph:00004:7974986d51\" data-atlas-type=\"paragraph\">This chapter is a reference on all things related to patterns. We’ll cover the valid places to use patterns, the difference between refutable and irrefutable patterns, and the different kinds of pattern syntax that you might see. By the end of the chapter, you’ll know how to use patterns to express many concepts in a clear way.</p>",
+  "source_visible_text_sha256": "0c3511af5cf640cd325c98508b6a1a3edd373d484986005c3c3c070f6c0ab8bb",
+  "element_ids": [
+    "patterns-and-matching:heading:00001:2673e83fa5",
+    "patterns-and-matching:paragraph:00001:290167f3de",
+    "patterns-and-matching:inline_code:00001:4945a70fa7",
+    "patterns-and-matching:list:00001:fabb8ef6c9",
+    "patterns-and-matching:list_item:00001:cbb293393c",
+    "patterns-and-matching:list_item:00002:e0ccab59bc",
+    "patterns-and-matching:list_item:00003:02db55bac5",
+    "patterns-and-matching:list_item:00004:f9ff788e8c",
+    "patterns-and-matching:list_item:00005:89cd50263d",
+    "patterns-and-matching:paragraph:00002:f80fc132ba",
+    "patterns-and-matching:inline_code:00002:2d711642b7",
+    "patterns-and-matching:inline_code:00003:9fd5b8a6f8",
+    "patterns-and-matching:inline_code:00004:abc3303edf",
+    "patterns-and-matching:paragraph:00003:80f64111d2",
+    "patterns-and-matching:inline_code:00005:4945a70fa7",
+    "patterns-and-matching:paragraph:00004:7974986d51"
+  ],
+  "source_type": "book"
+}

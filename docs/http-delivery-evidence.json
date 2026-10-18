@@ -1,0 +1,8 @@
+{
+  "source": "actual static dist/ via local Python HTTP server",
+  "verified_resources": 119,
+  "expected_resources": 119,
+  "source_chapters": 111,
+  "errors": [],
+  "status": "PASS"
+}

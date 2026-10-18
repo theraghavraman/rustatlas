@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#f7f4ed" />
+<title>Rust Atlas — Learn Rust by understanding it</title>
+<meta name="description" content="An interactive Rust learning experience with the complete supplied Rust Book, interactive concept laboratories, and book-aligned practice." />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+<div id="app">
+<header class="masthead">
+  <a href="#home" class="brand" aria-label="Rust Atlas home"><span class="brand-mark" aria-hidden="true">{<span>✳</span>}</span><span class="brand-wordmark">rust<span>atlas</span><small>THE LEARNING STUDIO</small></span></a>
+  <nav class="desktop-nav" aria-label="Primary navigation">
+    <a data-nav="home" href="#home">Overview</a>
+    <a data-nav="read" href="#read">The Book</a>
+    <a data-nav="lab" href="#lab">Concept Lab</a>
+    <a data-nav="practice" href="#practice">Practice</a>
+    <a data-nav="learning" href="#learning">My Learning</a>
+  </nav>
+  <div class="nav-side"><span class="header-progress" id="header-progress">0% explored</span><button type="button" class="theme-btn" id="menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button></div>
+</header>
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden><a href="#home">Overview</a><a href="#read">The Book</a><a href="#lab">Concept Lab</a><a href="#practice">Practice</a><a href="#learning">My Learning</a></nav>
+<main id="main" tabindex="-1"><section class="loading-state"><span class="orbit-loading">◌</span><p>Preparing your learning space…</p></section></main>
+<footer class="site-footer"><div class="footer-brand"><span class="brand-mark mini" aria-hidden="true">{✳}</span><span>Made for curious Rustaceans.</span></div><div>Book text © its respective contributors · <a href="https://github.com/rust-lang/book" target="_blank" rel="noopener noreferrer">Rust Book source &amp; license ↗</a></div><span>Rust Atlas · A learning companion, not an official Rust project</span></footer>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<dialog id="search-dialog" class="search-dialog"><div class="dialog-head"><span>⌕ &nbsp; Search the book</span><button aria-label="Close search" id="close-search" class="icon-button">✕</button></div><input id="search-input" type="search" placeholder="Try ownership, lifetime, Result…" autocomplete="off" aria-label="Book search" /><div id="search-results" class="search-results"></div><div class="dialog-foot">↵ Open result <span>·</span> Esc Close <span>·</span> Source material and supplements labelled separately</div></dialog>
+<script type="module" src="app.js"></script>
+</body></html>

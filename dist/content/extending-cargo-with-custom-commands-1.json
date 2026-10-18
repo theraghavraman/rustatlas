@@ -1,0 +1,36 @@
+{
+  "slug": "extending-cargo-with-custom-commands-1",
+  "title": "Extending Cargo with Custom Commands",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Extending Cargo with Custom Commands",
+      "anchor": "extending-cargo-with-custom-commands-1"
+    },
+    {
+      "level": 2,
+      "title": "Extending Cargo with Custom Commands",
+      "anchor": "extending-cargo-with-custom-commands"
+    },
+    {
+      "level": 2,
+      "title": "Summary",
+      "anchor": "summary-13"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"fea4789becc5318fe1d70d29948ccc2d69929b11240e5ce6b64dd3ceef7276c9\" data-atlas-id=\"extending-cargo-with-custom-commands-1:heading:00001:fea4789bec\" data-atlas-type=\"heading\" id=\"extending-cargo-with-custom-commands-1\"><a class=\"header\" href=\"#read/extending-cargo-with-custom-commands-1?anchor=extending-cargo-with-custom-commands-1\">Extending Cargo with Custom Commands</a></h1>\n<h2 data-atlas-hash=\"fea4789becc5318fe1d70d29948ccc2d69929b11240e5ce6b64dd3ceef7276c9\" data-atlas-id=\"extending-cargo-with-custom-commands-1:heading:00002:fea4789bec\" data-atlas-type=\"heading\" id=\"extending-cargo-with-custom-commands\"><a class=\"header\" href=\"#read/extending-cargo-with-custom-commands-1?anchor=extending-cargo-with-custom-commands\">Extending Cargo with Custom Commands</a></h2>\n<p data-atlas-hash=\"f0316b12d869856032c1a3ba5f1bb77b36fd285e3cdb2a25c8788364b96d5285\" data-atlas-id=\"extending-cargo-with-custom-commands-1:paragraph:00001:f0316b12d8\" data-atlas-type=\"paragraph\">Cargo is designed so that you can extend it with new subcommands without having to modify it. If a binary in your <code data-atlas-hash=\"b99efa99a1eacea2e9f9ddc7d800c55f5430d517a88d643ec521cde9d73b54ea\" data-atlas-id=\"extending-cargo-with-custom-commands-1:inline_code:00001:b99efa99a1\" data-atlas-type=\"inline_code\">$PATH</code> is named <code data-atlas-hash=\"9df926df6b9ea207d4a9ef2ad81dfea81304520de631a326a95713a12edf740a\" data-atlas-id=\"extending-cargo-with-custom-commands-1:inline_code:00002:9df926df6b\" data-atlas-type=\"inline_code\">cargo-something</code>, you can run it as if it were a Cargo subcommand by running <code data-atlas-hash=\"81c20369032f3b92f83dab4b4ad6f6d3f8cccdf58be03a09e8a3fca16a9a30fe\" data-atlas-id=\"extending-cargo-with-custom-commands-1:inline_code:00003:81c2036903\" data-atlas-type=\"inline_code\">cargo something</code>. Custom commands like this are also listed when you run <code data-atlas-hash=\"14e0b13791b42577257e5ff54b21f3181d257564d1f9de2f9806af6ebfd67162\" data-atlas-id=\"extending-cargo-with-custom-commands-1:inline_code:00004:14e0b13791\" data-atlas-type=\"inline_code\">cargo --list</code>. Being able to use <code data-atlas-hash=\"dd4d4ccb19dcb782bf7292ecd77cd922dd9dbab7a25e41fd07aabccb33a799c6\" data-atlas-id=\"extending-cargo-with-custom-commands-1:inline_code:00005:dd4d4ccb19\" data-atlas-type=\"inline_code\">cargo install</code> to install extensions and then run them just like the built-in Cargo tools is a super-convenient benefit of Cargo’s design!</p>\n<h2 data-atlas-hash=\"8e76a94ac8320d515375e625bef1829238b097ecbd33611b59eeefd4ffefebfb\" data-atlas-id=\"extending-cargo-with-custom-commands-1:heading:00003:8e76a94ac8\" data-atlas-type=\"heading\" id=\"summary-13\"><a class=\"header\" href=\"#read/extending-cargo-with-custom-commands-1?anchor=summary-13\">Summary</a></h2>\n<p data-atlas-hash=\"5e40ab5ec9c7a5160aece75caf6b747fcf107ab6ffea906aacd6c313ec808a6d\" data-atlas-id=\"extending-cargo-with-custom-commands-1:paragraph:00002:5e40ab5ec9\" data-atlas-type=\"paragraph\">Sharing code with Cargo and <a href=\"https://crates.io/\" rel=\"noopener noreferrer\" target=\"_blank\">crates.io</a> is part of what makes the Rust ecosystem useful for many different tasks. Rust’s standard library is small and stable, but crates are easy to share, use, and improve on a timeline different from that of the language. Don’t be shy about sharing code that’s useful to you on <a href=\"https://crates.io/\" rel=\"noopener noreferrer\" target=\"_blank\">crates.io</a>; it’s likely that it will be useful to someone else as well!</p>",
+  "source_visible_text_sha256": "cea1affb4c2ea302357efc66b727fa065ec9ab98978957f0bf6b0b1ddbd8e139",
+  "element_ids": [
+    "extending-cargo-with-custom-commands-1:heading:00001:fea4789bec",
+    "extending-cargo-with-custom-commands-1:heading:00002:fea4789bec",
+    "extending-cargo-with-custom-commands-1:paragraph:00001:f0316b12d8",
+    "extending-cargo-with-custom-commands-1:inline_code:00001:b99efa99a1",
+    "extending-cargo-with-custom-commands-1:inline_code:00002:9df926df6b",
+    "extending-cargo-with-custom-commands-1:inline_code:00003:81c2036903",
+    "extending-cargo-with-custom-commands-1:inline_code:00004:14e0b13791",
+    "extending-cargo-with-custom-commands-1:inline_code:00005:dd4d4ccb19",
+    "extending-cargo-with-custom-commands-1:heading:00003:8e76a94ac8",
+    "extending-cargo-with-custom-commands-1:paragraph:00002:5e40ab5ec9"
+  ],
+  "source_type": "book"
+}

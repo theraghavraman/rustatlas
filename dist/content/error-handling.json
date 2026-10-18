@@ -1,0 +1,24 @@
+{
+  "slug": "error-handling",
+  "title": "Error Handling",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Error Handling",
+      "anchor": "error-handling"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"753215f79dc6dc9e57e2a85d48ba1ce46b079e3a585f2a3494b4652ab786eb94\" data-atlas-id=\"error-handling:heading:00001:753215f79d\" data-atlas-type=\"heading\" id=\"error-handling\"><a class=\"header\" href=\"#read/error-handling?anchor=error-handling\">Error Handling</a></h1>\n<p data-atlas-hash=\"8e0ec4751fd0f044728870b9fdf007b7f4d4f765ad7a99dc1d6ee18568014d26\" data-atlas-id=\"error-handling:paragraph:00001:8e0ec4751f\" data-atlas-type=\"paragraph\">Errors are a fact of life in software, so Rust has a number of features for handling situations in which something goes wrong. In many cases, Rust requires you to acknowledge the possibility of an error and take some action before your code will compile. This requirement makes your program more robust by ensuring that you’ll discover errors and handle them appropriately before deploying your code to production!</p>\n<p data-atlas-hash=\"d641438977ce7d8da5b24124b690dae09d9d4fedc80e49f425a248177b2a6db3\" data-atlas-id=\"error-handling:paragraph:00002:d641438977\" data-atlas-type=\"paragraph\">Rust groups errors into two major categories: recoverable and unrecoverable errors. For a <em>recoverable error</em>, such as a <em>file not found</em> error, we most likely just want to report the problem to the user and retry the operation. <em>Unrecoverable errors</em> are always symptoms of bugs, such as trying to access a location beyond the end of an array, and so we want to immediately stop the program.</p>\n<p data-atlas-hash=\"544d8a684956b43b0a42ce83175f206d6d5606275beb8970d2b7a98ae298d457\" data-atlas-id=\"error-handling:paragraph:00003:544d8a6849\" data-atlas-type=\"paragraph\">Most languages don’t distinguish between these two kinds of errors and handle both in the same way, using mechanisms such as exceptions. Rust doesn’t have exceptions. Instead, it has the type <code data-atlas-hash=\"2fcc25f66ce9b2e253b0767a0d3b24453c507ef43639e4ca0e868bd093ac1b11\" data-atlas-id=\"error-handling:inline_code:00001:2fcc25f66c\" data-atlas-type=\"inline_code\">Result&lt;T, E&gt;</code> for recoverable errors and the <code data-atlas-hash=\"1650d68b7265ba58703ecec70a5fdda9343429e0f6e38ff5d2da9f51b9e7559c\" data-atlas-id=\"error-handling:inline_code:00002:1650d68b72\" data-atlas-type=\"inline_code\">panic!</code> macro that stops execution when the program encounters an unrecoverable error. This chapter covers calling <code data-atlas-hash=\"1650d68b7265ba58703ecec70a5fdda9343429e0f6e38ff5d2da9f51b9e7559c\" data-atlas-id=\"error-handling:inline_code:00003:1650d68b72\" data-atlas-type=\"inline_code\">panic!</code> first and then talks about returning <code data-atlas-hash=\"2fcc25f66ce9b2e253b0767a0d3b24453c507ef43639e4ca0e868bd093ac1b11\" data-atlas-id=\"error-handling:inline_code:00004:2fcc25f66c\" data-atlas-type=\"inline_code\">Result&lt;T, E&gt;</code> values. Additionally, we’ll explore considerations when deciding whether to try to recover from an error or to stop execution.</p>",
+  "source_visible_text_sha256": "9b31187cc54694d7fcbc91080b03d342b3cf7b8a445c834f5ba2e32cde0f44ba",
+  "element_ids": [
+    "error-handling:heading:00001:753215f79d",
+    "error-handling:paragraph:00001:8e0ec4751f",
+    "error-handling:paragraph:00002:d641438977",
+    "error-handling:paragraph:00003:544d8a6849",
+    "error-handling:inline_code:00001:2fcc25f66c",
+    "error-handling:inline_code:00002:1650d68b72",
+    "error-handling:inline_code:00003:1650d68b72",
+    "error-handling:inline_code:00004:2fcc25f66c"
+  ],
+  "source_type": "book"
+}

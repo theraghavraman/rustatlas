@@ -1,0 +1,25 @@
+{
+  "slug": "more-about-cargo-and-cratesio",
+  "title": "More About Cargo and Crates.io",
+  "headings": [
+    {
+      "level": 1,
+      "title": "More About Cargo and Crates.io",
+      "anchor": "more-about-cargo-and-cratesio"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"9dbc27cb5e3b077ebba8eefa2c3b0f29449645cba891a87dcb3d04731e972165\" data-atlas-id=\"more-about-cargo-and-cratesio:heading:00001:9dbc27cb5e\" data-atlas-type=\"heading\" id=\"more-about-cargo-and-cratesio\"><a class=\"header\" href=\"#read/more-about-cargo-and-cratesio?anchor=more-about-cargo-and-cratesio\">More About Cargo and Crates.io</a></h1>\n<p data-atlas-hash=\"748d23b517dc9e9aba7dec12af242962ed72786eb55922e254a072027d5539ba\" data-atlas-id=\"more-about-cargo-and-cratesio:paragraph:00001:748d23b517\" data-atlas-type=\"paragraph\">So far, we’ve used only the most basic features of Cargo to build, run, and test our code, but it can do a lot more. In this chapter, we’ll discuss some of its other, more advanced features to show you how to do the following:</p>\n<ul data-atlas-hash=\"921034ec385bab35fb9fda5e35563c75611090cd3f2294a475e1ae2bd8633a07\" data-atlas-id=\"more-about-cargo-and-cratesio:list:00001:921034ec38\" data-atlas-type=\"list\">\n<li data-atlas-hash=\"c0fcb58423776b8997206b3e53d15497530874c9e5309a3b5e71ce9b43d973c6\" data-atlas-id=\"more-about-cargo-and-cratesio:list_item:00001:c0fcb58423\" data-atlas-type=\"list_item\">Customize your build through release profiles.</li>\n<li data-atlas-hash=\"14a8e5667065bbe5c405d08c99533b69ed03b045da5c2ff5d2fbd592a631758b\" data-atlas-id=\"more-about-cargo-and-cratesio:list_item:00002:14a8e56670\" data-atlas-type=\"list_item\">Publish libraries on <a href=\"https://crates.io/\" rel=\"noopener noreferrer\" target=\"_blank\">crates.io</a>.</li>\n<li data-atlas-hash=\"201c7073c589b03667e50867e02cf36fc5c1229ae790285362dffbd075c87a36\" data-atlas-id=\"more-about-cargo-and-cratesio:list_item:00003:201c7073c5\" data-atlas-type=\"list_item\">Organize large projects with workspaces.</li>\n<li data-atlas-hash=\"4ade5ff381b9b26931f2f746972cb04d18cb1c2450697584fba5940ea5b5bb6c\" data-atlas-id=\"more-about-cargo-and-cratesio:list_item:00004:4ade5ff381\" data-atlas-type=\"list_item\">Install binaries from <a href=\"https://crates.io/\" rel=\"noopener noreferrer\" target=\"_blank\">crates.io</a>.</li>\n<li data-atlas-hash=\"184e932deb4e86c4ec7f657501f40dc25353b7e1d92d1dad43f1587be4f302b0\" data-atlas-id=\"more-about-cargo-and-cratesio:list_item:00005:184e932deb\" data-atlas-type=\"list_item\">Extend Cargo using custom commands.</li>\n</ul>\n<p data-atlas-hash=\"ffb6b1f0cd26b039b73f341dcb7cc340d64b290e22d9357a9f1f5d49dce0c4b8\" data-atlas-id=\"more-about-cargo-and-cratesio:paragraph:00002:ffb6b1f0cd\" data-atlas-type=\"paragraph\">Cargo can do even more than the functionality we cover in this chapter, so for a full explanation of all its features, see <a href=\"https://doc.rust-lang.org/cargo/\" rel=\"noopener noreferrer\" target=\"_blank\">its documentation</a>.</p>",
+  "source_visible_text_sha256": "c8aacfbb3f6c5f62952eb4dbcacfeded5bf0c0655866fb0e562f5d49388bd229",
+  "element_ids": [
+    "more-about-cargo-and-cratesio:heading:00001:9dbc27cb5e",
+    "more-about-cargo-and-cratesio:paragraph:00001:748d23b517",
+    "more-about-cargo-and-cratesio:list:00001:921034ec38",
+    "more-about-cargo-and-cratesio:list_item:00001:c0fcb58423",
+    "more-about-cargo-and-cratesio:list_item:00002:14a8e56670",
+    "more-about-cargo-and-cratesio:list_item:00003:201c7073c5",
+    "more-about-cargo-and-cratesio:list_item:00004:4ade5ff381",
+    "more-about-cargo-and-cratesio:list_item:00005:184e932deb",
+    "more-about-cargo-and-cratesio:paragraph:00002:ffb6b1f0cd"
+  ],
+  "source_type": "book"
+}

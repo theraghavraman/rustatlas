@@ -1,0 +1,26 @@
+{
+  "slug": "advanced-features",
+  "title": "Advanced Features",
+  "headings": [
+    {
+      "level": 1,
+      "title": "Advanced Features",
+      "anchor": "advanced-features"
+    }
+  ],
+  "html": "<h1 data-atlas-hash=\"7a7b7c823fca2c92a2bc22b8ae68c8f72a80d1e70ab9a47c331c83974a1d3247\" data-atlas-id=\"advanced-features:heading:00001:7a7b7c823f\" data-atlas-type=\"heading\" id=\"advanced-features\"><a class=\"header\" href=\"#read/advanced-features?anchor=advanced-features\">Advanced Features</a></h1>\n<p data-atlas-hash=\"4d9b005fdbf809bc9f1534d59bd576eb5b8bfaf2cd48d3daf904dc4e98d58934\" data-atlas-id=\"advanced-features:paragraph:00001:4d9b005fdb\" data-atlas-type=\"paragraph\">By now, you’ve learned the most commonly used parts of the Rust programming language. Before we do one more project, in Chapter 21, we’ll look at a few aspects of the language you might run into every once in a while but may not use every day. You can use this chapter as a reference for when you encounter any unknowns. The features covered here are useful in very specific situations. Although you might not reach for them often, we want to make sure you have a grasp of all the features Rust has to offer.</p>\n<p data-atlas-hash=\"2fbfce61534d013fa0a390d2bef72c0a4fa385c49039f3219ce4f7bfd4c4c47a\" data-atlas-id=\"advanced-features:paragraph:00002:2fbfce6153\" data-atlas-type=\"paragraph\">In this chapter, we’ll cover:</p>\n<ul data-atlas-hash=\"9f588315b6eda8e9da3164bcf0b72fe1bb98c1a1b83775a0aed48a254d6fda5b\" data-atlas-id=\"advanced-features:list:00001:9f588315b6\" data-atlas-type=\"list\">\n<li data-atlas-hash=\"10130846f4a8d9d233e4d1a817482a93b335e71a66b1a704bbec63fb9d9cbc74\" data-atlas-id=\"advanced-features:list_item:00001:10130846f4\" data-atlas-type=\"list_item\">Unsafe Rust: How to opt out of some of Rust’s guarantees and take responsibility for manually upholding those guarantees</li>\n<li data-atlas-hash=\"0bb4ad9e8a8eca060461dc91e6f40a2f5ce2a1db668c5818d35ae516a1bdf22e\" data-atlas-id=\"advanced-features:list_item:00002:0bb4ad9e8a\" data-atlas-type=\"list_item\">Advanced traits: Associated types, default type parameters, fully qualified syntax, supertraits, and the newtype pattern in relation to traits</li>\n<li data-atlas-hash=\"ba3ddbb223e28293310a986a74172fdcaddea264e05c60a2d7050ccd757a7c06\" data-atlas-id=\"advanced-features:list_item:00003:ba3ddbb223\" data-atlas-type=\"list_item\">Advanced types: More about the newtype pattern, type aliases, the never type, and dynamically sized types</li>\n<li data-atlas-hash=\"cc674cdb56b3ccb5b766128d72cae4b295739eb927ca31cc5055983361befb60\" data-atlas-id=\"advanced-features:list_item:00004:cc674cdb56\" data-atlas-type=\"list_item\">Advanced functions and closures: Function pointers and returning closures</li>\n<li data-atlas-hash=\"15b77fa5c0a49acdb39940ef32a0ab85e81320efbef53d4251350060050ba437\" data-atlas-id=\"advanced-features:list_item:00005:15b77fa5c0\" data-atlas-type=\"list_item\">Macros: Ways to define code that defines more code at compile time</li>\n</ul>\n<p data-atlas-hash=\"b2dd4689cfeadcbea3d5a92bc468cb4682cc16c7f29dff3c11ca6e5009032c2b\" data-atlas-id=\"advanced-features:paragraph:00003:b2dd4689cf\" data-atlas-type=\"paragraph\">It’s a panoply of Rust features with something for everyone! Let’s dive in!</p>",
+  "source_visible_text_sha256": "83476521ef5a8afb843dbf6a730c3fed56f8a084eb9c115cd277b3b48d5f7d9a",
+  "element_ids": [
+    "advanced-features:heading:00001:7a7b7c823f",
+    "advanced-features:paragraph:00001:4d9b005fdb",
+    "advanced-features:paragraph:00002:2fbfce6153",
+    "advanced-features:list:00001:9f588315b6",
+    "advanced-features:list_item:00001:10130846f4",
+    "advanced-features:list_item:00002:0bb4ad9e8a",
+    "advanced-features:list_item:00003:ba3ddbb223",
+    "advanced-features:list_item:00004:cc674cdb56",
+    "advanced-features:list_item:00005:15b77fa5c0",
+    "advanced-features:paragraph:00003:b2dd4689cf"
+  ],
+  "source_type": "book"
+}
